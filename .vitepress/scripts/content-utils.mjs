@@ -14,6 +14,7 @@ export const EXCLUDED_DIRS = new Set([
   'docs',
   'docker_support',
   'images',
+  'ingredients',
   'node_modules',
   'public',
   'tests',

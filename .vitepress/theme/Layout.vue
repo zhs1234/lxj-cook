@@ -3,13 +3,17 @@ import { computed, onBeforeUnmount, ref, watch } from 'vue'
 import { Content, useRoute } from 'vitepress'
 
 import categoriesData from '../generated/categories.generated.json'
+import recipesData from '../generated/recipes.generated.json'
 import CustomCursor from './components/CustomCursor.vue'
 import FullscreenMenu from './components/FullscreenMenu.vue'
 import PageTransition from './components/PageTransition.vue'
 import ScrollProgress from './components/ScrollProgress.vue'
 import SearchOverlay from './components/SearchOverlay.vue'
 import SiteHeader from './components/SiteHeader.vue'
+import CategoryLayout from './layouts/CategoryLayout.vue'
 import HomeLayout from './layouts/HomeLayout.vue'
+import IngredientUniverseLayout from './layouts/IngredientUniverseLayout.vue'
+import RecipeLayout from './layouts/RecipeLayout.vue'
 
 const route = useRoute()
 const siteHeader = ref(null)
@@ -17,6 +21,39 @@ const menuOpen = ref(false)
 const searchOpen = ref(false)
 const categories = categoriesData.categories ?? []
 const isHome = computed(() => route.path === '/')
+const isIngredients = computed(() => route.path.replace(/\/$/u, '') === '/ingredients')
+const categoryName = computed(() => {
+  const segments = route.path
+    .split('/')
+    .filter(Boolean)
+    .map((segment) => {
+      try {
+        return decodeURIComponent(segment)
+      } catch {
+        return segment
+      }
+    })
+
+  return segments.length === 1 ? segments[0] : null
+})
+const isCategory = computed(() => categories.some((category) => category.name === categoryName.value))
+const recipeIds = new Set((recipesData.recipes ?? []).map((recipe) => recipe.id))
+const recipeId = computed(() => {
+  const normalizedPath = route.path.replace(/\.html$/, '').replace(/\/$/, '')
+  const segments = normalizedPath
+    .split('/')
+    .filter(Boolean)
+    .map((segment) => {
+      try {
+        return decodeURIComponent(segment)
+      } catch {
+        return segment
+      }
+    })
+
+  return segments.length === 2 ? segments.join('/') : null
+})
+const isRecipe = computed(() => recipeIds.has(recipeId.value))
 
 let previousOverflow = ''
 
@@ -92,9 +129,14 @@ onBeforeUnmount(() => {
     />
 
     <main id="main-content" class="site-main" tabindex="-1">
-      <HomeLayout v-if="isHome" />
-      <PageTransition v-else>
-        <Content />
+      <PageTransition>
+        <HomeLayout v-if="isHome" />
+        <IngredientUniverseLayout v-else-if="isIngredients" />
+        <CategoryLayout v-else-if="isCategory" :category-name="categoryName" />
+        <RecipeLayout v-else-if="isRecipe" :recipe-id="recipeId" />
+        <template v-else>
+          <Content />
+        </template>
       </PageTransition>
     </main>
 

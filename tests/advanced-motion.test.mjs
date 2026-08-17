@@ -1,0 +1,91 @@
+import assert from 'node:assert/strict'
+import { readFile } from 'node:fs/promises'
+import { test } from 'node:test'
+import { fileURLToPath } from 'node:url'
+import path from 'node:path'
+
+const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
+const readRepoFile = (relativePath) => readFile(path.join(repoRoot, relativePath), 'utf8')
+
+test('P9 Home heat layer is lazy, capability-gated, and disposes WebGL resources', async () => {
+  const home = await readRepoFile('.vitepress/theme/layouts/HomeLayout.vue')
+  const heat = await readRepoFile('.vitepress/theme/components/webgl/HeatDistortion.vue')
+  const helper = await readRepoFile('.vitepress/theme/utils/motion-capabilities.js')
+  const styles = await readRepoFile('.vitepress/theme/styles/webgl.css')
+
+  assert.match(home, /defineAsyncComponent/)
+  assert.match(home, /IntersectionObserver/)
+  assert.match(home, /requestIdleCallback/)
+  assert.match(home, /@degraded/)
+  assert.match(heat, /getContext\('webgl'/)
+  assert.match(heat, /requestAnimationFrame/)
+  assert.match(heat, /cancelAnimationFrame/)
+  assert.match(heat, /deleteProgram/)
+  assert.match(heat, /deleteBuffer/)
+  assert.match(heat, /deleteShader/)
+  assert.match(heat, /ResizeObserver/)
+  assert.match(heat, /webglcontextlost/)
+  assert.match(heat, /dispose\(\)/)
+  assert.match(helper, /prefers-reduced-motion: reduce/)
+  assert.match(helper, /deviceMemory/)
+  assert.match(helper, /transition: !reduced && !mobile/)
+  assert.match(styles, /@media \(max-width: 48rem\), \(pointer: coarse\)/)
+  assert.match(styles, /@media \(prefers-reduced-motion: reduce\)/)
+})
+
+test('P9 Ingredient Universe uses real data with a semantic DOM fallback', async () => {
+  const layout = await readRepoFile('.vitepress/theme/layouts/IngredientUniverseLayout.vue')
+  const canvas = await readRepoFile('.vitepress/theme/components/webgl/IngredientUniverseCanvas.vue')
+  const styles = await readRepoFile('.vitepress/theme/styles/ingredient-universe.css')
+  const page = await readRepoFile('ingredients/index.md')
+  const ingredients = JSON.parse(await readRepoFile('.vitepress/generated/ingredients.generated.json'))
+  const recipes = JSON.parse(await readRepoFile('.vitepress/generated/recipes.generated.json'))
+
+  assert.match(layout, /ingredients\.generated\.json/)
+  assert.match(layout, /recipes\.generated\.json/)
+  assert.match(layout, /relations\.generated\.json/)
+  assert.match(layout, /defineAsyncComponent/)
+  assert.match(layout, /selectedRecipes/)
+  assert.match(layout, /<button/)
+  assert.match(layout, /:href="recipeHref\(recipe\)"/)
+  assert.match(canvas, /getContext\('2d'/)
+  assert.match(canvas, /requestAnimationFrame/)
+  assert.match(canvas, /cancelAnimationFrame/)
+  assert.match(canvas, /ResizeObserver/)
+  assert.match(canvas, /intersectionObserver\?\.disconnect/)
+  assert.match(styles, /@media \(max-width: 48rem\)/)
+  assert.match(styles, /@media \(prefers-reduced-motion: reduce\)/)
+  assert.match(page, /Ingredient Universe/)
+  assert.equal(ingredients.ingredients.length, 659)
+  assert.equal(recipes.recipes.length, 336)
+  assert.ok(ingredients.ingredients.find((ingredient) => ingredient.name === '大豆油').recipeIds.includes('炒菜/肥肠鸡'))
+})
+
+test('P9 page transition expands real recipe images and has mobile fallback', async () => {
+  const transition = await readRepoFile('.vitepress/theme/components/PageTransition.vue')
+  const layout = await readRepoFile('.vitepress/theme/Layout.vue')
+  const home = await readRepoFile('.vitepress/theme/layouts/HomeLayout.vue')
+  const category = await readRepoFile('.vitepress/theme/layouts/CategoryLayout.vue')
+  const recipe = await readRepoFile('.vitepress/theme/layouts/RecipeLayout.vue')
+  const styles = await readRepoFile('.vitepress/theme/styles/webgl.css')
+  const packageJson = JSON.parse(await readRepoFile('package.json'))
+
+  assert.match(layout, /<PageTransition>/)
+  assert.match(transition, /data-transition-image/)
+  assert.match(transition, /getBoundingClientRect/)
+  assert.match(transition, /nextTick/)
+  assert.match(transition, /cancelAnimationFrame/)
+  assert.match(transition, /pageReveal/)
+  assert.match(transition, /startPageReveal/)
+  assert.match(transition, /removeEventListener\('click'/)
+  assert.match(home, /data-transition-image/)
+  assert.match(category, /data-transition-image/)
+  assert.match(recipe, /data-transition-image/)
+  assert.match(styles, /transform var\(--motion-duration-scene\)/)
+  assert.match(styles, /@media \(max-width: 48rem\), \(pointer: coarse\)/)
+  assert.equal(packageJson.scripts['test:advanced-motion'], 'node --test tests/advanced-motion.test.mjs')
+  for (const source of [transition, layout, home, category, recipe, styles]) {
+    assert.doesNotMatch(source, /[\u{1F000}-\u{1FAFF}]/u)
+    assert.doesNotMatch(source, /[—–]/u)
+  }
+})

@@ -1,0 +1,95 @@
+@layer global {
+  .home-hero__heat {
+    overflow: hidden;
+    background: transparent;
+    filter: none;
+  }
+
+  .home-hero__heat-fallback {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: radial-gradient(
+      circle,
+      rgb(223 77 50 / 0.27) 0%,
+      rgb(223 77 50 / 0.06) 42%,
+      transparent 70%
+    );
+    filter: blur(0.375rem);
+  }
+
+  .webgl-heat-layer {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+  }
+
+  .page-transition-root {
+    position: relative;
+  }
+
+  .page-transition-curtain {
+    position: fixed;
+    z-index: var(--z-overlay);
+    inset: 0;
+    background: var(--color-accent);
+    pointer-events: none;
+    transform: scaleX(1);
+    transform-origin: right center;
+    transition: transform var(--motion-duration-scene) var(--motion-ease-emphasis);
+  }
+
+  .page-transition-curtain--playing {
+    transform: scaleX(0);
+  }
+
+  .page-transition-media {
+    position: fixed;
+    z-index: calc(var(--z-overlay) + 1);
+    top: 0;
+    left: 0;
+    width: var(--transition-end-width);
+    height: var(--transition-end-height);
+    overflow: hidden;
+    opacity: 0.96;
+    pointer-events: none;
+    transform: translate3d(var(--transition-start-left), var(--transition-start-top), 0)
+      scale(var(--transition-start-scale-x), var(--transition-start-scale-y));
+    transform-origin: top left;
+    transition:
+      transform var(--motion-duration-scene) var(--motion-ease-emphasis),
+      opacity var(--motion-duration-base) var(--motion-ease-standard);
+  }
+
+  .page-transition-media--playing {
+    opacity: 1;
+    transform: translate3d(var(--transition-end-left), var(--transition-end-top), 0) scale(1, 1);
+  }
+
+  .page-transition-media img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media (max-width: 48rem), (pointer: coarse) {
+    .webgl-heat-layer {
+      display: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .webgl-heat-layer,
+    .page-transition-curtain,
+    .page-transition-media {
+      display: none;
+      transition: none;
+    }
+  }
+}

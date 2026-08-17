@@ -1,13 +1,20 @@
 <script setup>
-import { onBeforeUnmount, onMounted, ref } from 'vue'
+import { defineAsyncComponent, onBeforeUnmount, onMounted, ref } from 'vue'
 import { ArrowUpRight } from '@lucide/vue'
 
 import categoriesData from '../../generated/categories.generated.json'
 import imagesData from '../../generated/images.generated.json'
 import recipesData from '../../generated/recipes.generated.json'
+import { getMotionCapabilities } from '../utils/motion-capabilities.js'
+
+const HeatDistortion = defineAsyncComponent(() => import('../components/webgl/HeatDistortion.vue'))
 
 const homeRoot = ref(null)
+const heatMount = ref(null)
+const heatDistortionVisible = ref(false)
 let animationContext
+let heatObserver
+let heatIdleHandle
 let disposed = false
 
 const categories = categoriesData.categories ?? []
@@ -32,6 +39,8 @@ if (featuredRecipes.length < 4) {
 }
 
 const heroRecipe = featuredRecipes[0]
+const homeIntroImage = '/home-archive-intro.png'
+const homeHeroImage = '/home-hero-dish.png'
 const stats = {
   recipes: recipesData.recipes?.length ?? 0,
   categories: categories.length,
@@ -42,8 +51,43 @@ function categoryHref(category) {
   return `/${encodeURIComponent(category.name)}/`
 }
 
+function queueHeatDistortion() {
+  if (!heatMount.value || !getMotionCapabilities().advanced) return
+
+  const load = () => {
+    heatDistortionVisible.value = true
+    heatObserver?.disconnect()
+  }
+  const schedule = () => {
+    if ('requestIdleCallback' in window) {
+      heatIdleHandle = { kind: 'idle', id: window.requestIdleCallback(load, { timeout: 1200 }) }
+    } else {
+      heatIdleHandle = { kind: 'timeout', id: window.setTimeout(load, 120) }
+    }
+  }
+
+  if (!('IntersectionObserver' in window)) {
+    schedule()
+    return
+  }
+
+  heatObserver = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) schedule()
+    },
+    { rootMargin: '80px' },
+  )
+  heatObserver.observe(heatMount.value)
+}
+
 onMounted(async () => {
-  if (!homeRoot.value || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+  queueHeatDistortion()
+  const prefersReducedMotion =
+    typeof window !== 'undefined' &&
+    typeof window.matchMedia === 'function' &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+  if (!homeRoot.value || getMotionCapabilities().reduced || prefersReducedMotion) return
 
   const { gsap } = await import('gsap')
   if (disposed || !homeRoot.value) return
@@ -74,6 +118,14 @@ onMounted(async () => {
 
 onBeforeUnmount(() => {
   disposed = true
+  heatObserver?.disconnect()
+  if (heatIdleHandle) {
+    if (heatIdleHandle.kind === 'idle' && 'cancelIdleCallback' in window) {
+      window.cancelIdleCallback(heatIdleHandle.id)
+    } else {
+      window.clearTimeout(heatIdleHandle.id)
+    }
+  }
   animationContext?.revert()
 })
 </script>
@@ -98,12 +150,12 @@ onBeforeUnmount(() => {
 
       <div class="home-hero__visual" aria-label="真实菜谱与项目原始横幅">
         <div class="home-hero__cover" data-home-reveal>
-          <img src="/banner.png" alt="项目原始横幅图" width="2048" height="1024" fetchpriority="high" />
+          <img :src="homeIntroImage" alt="中式烹饪档案静物图" width="1024" height="1536" fetchpriority="high" />
         </div>
         <figure class="home-hero__dish" data-home-reveal>
           <div class="home-photo home-photo--hero">
             <img
-              :src="heroRecipe.image"
+              :src="homeHeroImage"
               :alt="heroRecipe.title"
               :width="heroRecipe.imageMeta?.width"
               :height="heroRecipe.imageMeta?.height"
@@ -115,7 +167,13 @@ onBeforeUnmount(() => {
             <span>{{ heroRecipe.category }}</span>
           </figcaption>
         </figure>
-        <div class="home-hero__heat" aria-hidden="true" />
+        <div ref="heatMount" class="home-hero__heat" aria-hidden="true">
+          <div class="home-hero__heat-fallback" />
+          <HeatDistortion
+            v-if="heatDistortionVisible"
+            @degraded="heatDistortionVisible = false"
+          />
+        </div>
       </div>
     </section>
 
@@ -135,6 +193,7 @@ onBeforeUnmount(() => {
           :key="recipe.id"
           class="home-recipe"
           :href="recipe.slug"
+          :data-transition-image="recipe.image"
           role="listitem"
         >
           <div class="home-photo home-photo--rail">
@@ -159,6 +218,10 @@ onBeforeUnmount(() => {
       <div class="home-section__heading">
         <h2 id="category-title">按真实分类，找到下一道菜。</h2>
         <p>菜谱、分类和图片均来自内容生成流程，不额外编造评分或热度。</p>
+        <a class="home-text-link" href="/ingredients/">
+          探索食材关系
+          <ArrowUpRight :size="17" :stroke-width="1.8" aria-hidden="true" />
+        </a>
       </div>
 
       <nav class="home-category-grid" aria-label="全部菜谱分类">

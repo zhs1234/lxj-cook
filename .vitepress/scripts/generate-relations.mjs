@@ -6,10 +6,18 @@ import { GENERATED_DIR, ROOT_DIR, normalizeForMatch, writeJson } from './content
 
 function buildIngredientSet(recipe) {
   return new Map(
-    recipe.ingredients
-      .map((ingredient) => [normalizeForMatch(ingredient.name), ingredient.name])
+    (recipe.ingredients ?? [])
+      .map((ingredient) => [normalizeForMatch(ingredient.text), ingredient.text])
       .filter(([key]) => key.length > 0),
   )
+}
+
+function findTitleKeyword(recipe, candidate) {
+  const sourceTitle = normalizeForMatch(recipe.title)
+  const candidateTitle = normalizeForMatch(candidate.title)
+  if (sourceTitle.length >= 2 && candidateTitle.includes(sourceTitle)) return recipe.title
+  if (candidateTitle.length >= 2 && sourceTitle.includes(candidateTitle)) return candidate.title
+  return null
 }
 
 export function generateRelations(recipes, outputDir = GENERATED_DIR) {
@@ -25,7 +33,32 @@ export function generateRelations(recipes, outputDir = GENERATED_DIR) {
         if (candidateIngredients.has(key)) sharedIngredients.push(name)
       }
       const sameCategory = recipe.category === candidate.category
-      const score = sharedIngredients.length * 2 + (sameCategory ? 1 : 0)
+      const titleKeyword = findTitleKeyword(recipe, candidate)
+      const matchReasons = [
+        ...sharedIngredients.map((ingredient) => ({
+          type: 'shared-ingredient',
+          label: '共同食材',
+          value: ingredient,
+          weight: 2,
+        })),
+        ...(sameCategory
+          ? [{
+              type: 'same-category',
+              label: '同一分类',
+              value: recipe.category,
+              weight: 1,
+            }]
+          : []),
+        ...(titleKeyword
+          ? [{
+              type: 'title-keyword',
+              label: '标题关联',
+              value: titleKeyword,
+              weight: 2,
+            }]
+          : []),
+      ]
+      const score = matchReasons.reduce((total, reason) => total + reason.weight, 0)
       if (score === 0) continue
 
       related.push({
@@ -33,10 +66,16 @@ export function generateRelations(recipes, outputDir = GENERATED_DIR) {
         score,
         sameCategory,
         sharedIngredients: sharedIngredients.sort((a, b) => a.localeCompare(b, 'zh-CN-u-co-pinyin')),
+        matchReasons,
       })
     }
 
-    related.sort((a, b) => b.score - a.score || a.recipeId.localeCompare(b.recipeId, 'zh-CN-u-co-pinyin'))
+    related.sort(
+      (a, b) =>
+        b.score - a.score ||
+        b.sharedIngredients.length - a.sharedIngredients.length ||
+        a.recipeId.localeCompare(b.recipeId, 'zh-CN-u-co-pinyin'),
+    )
     return { recipeId: recipe.id, related: related.slice(0, 8) }
   })
 
@@ -61,4 +100,3 @@ if (isMainModule()) {
   const { recipes } = JSON.parse(fs.readFileSync(recipesPath, 'utf8'))
   generateRelations(recipes, GENERATED_DIR)
 }
-

@@ -13,7 +13,13 @@
     "test:content": "node --test tests/content-engine.test.mjs",
     "test:foundation": "node --test tests/design-foundation.test.mjs",
     "test:shell": "node --test tests/global-shell.test.mjs",
-    "test:home": "node --test tests/home.test.mjs"
+    "test:home": "node --test tests/home.test.mjs",
+    "test:category": "node --test tests/category.test.mjs",
+    "test:recipe": "node --test tests/recipe.test.mjs",
+    "test:cook-mode": "node --test tests/cook-mode.test.mjs",
+    "test:search": "node --test tests/search.test.mjs",
+    "test:advanced-motion": "node --test tests/advanced-motion.test.mjs",
+    "test": "npm run test:content && npm run test:foundation && npm run test:shell && npm run test:home && npm run test:category && npm run test:recipe && npm run test:cook-mode && npm run test:search && npm run test:advanced-motion"
   },
   "devDependencies": {
     "@lucide/vue": "^1.31.0",

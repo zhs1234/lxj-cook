@@ -1,0 +1,80 @@
+@layer global {
+  .search-overlay__results {
+    max-height: min(56svh, 40rem);
+    margin: var(--space-10) 0 0;
+    padding: 0;
+    overflow-y: auto;
+    border-top: 0.0625rem solid var(--color-line);
+    list-style: none;
+  }
+
+  .search-overlay__result {
+    border-bottom: 0.0625rem solid var(--color-line);
+  }
+
+  .search-overlay__result-link {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: var(--space-6);
+    padding: var(--space-5) var(--space-3);
+    border-left: 0.1875rem solid transparent;
+    color: var(--color-ink);
+    text-decoration: none;
+    transition:
+      color var(--motion-duration-fast) var(--motion-ease-standard),
+      background-color var(--motion-duration-fast) var(--motion-ease-standard),
+      border-color var(--motion-duration-fast) var(--motion-ease-standard);
+  }
+
+  .search-overlay__result-link:hover,
+  .search-overlay__result-link:focus-visible,
+  .search-overlay__result-link--active {
+    border-left-color: var(--color-accent);
+    background: var(--color-paper-warm);
+    color: var(--color-accent-strong);
+  }
+
+  .search-overlay__result-meta,
+  .search-overlay__result-context {
+    display: block;
+    color: var(--color-ink-muted);
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: var(--tracking-wide);
+  }
+
+  .search-overlay__result-meta {
+    margin-bottom: var(--space-2);
+  }
+
+  .search-overlay__result-title {
+    display: block;
+    font-family: var(--font-display);
+    font-size: clamp(1.25rem, 2.8vw, 2.25rem);
+    font-weight: 500;
+    letter-spacing: var(--tracking-tight);
+    line-height: 1.1;
+  }
+
+  .search-overlay__result-context {
+    margin-top: var(--space-2);
+  }
+
+  @media (max-width: 42rem) {
+    .search-overlay__results {
+      margin-top: var(--space-8);
+    }
+
+    .search-overlay__result-link {
+      gap: var(--space-3);
+      padding: var(--space-4) var(--space-2);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .search-overlay__result-link {
+      transition: none;
+    }
+  }
+}

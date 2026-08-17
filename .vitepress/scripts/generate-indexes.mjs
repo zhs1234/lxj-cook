@@ -9,6 +9,7 @@ import {
   sortNames,
 } from './content-utils.mjs'
 import { generateRecipeData } from './generate-recipes.mjs'
+import { generateSearch } from './generate-search.mjs'
 
 function titleFromName(name) {
   return name.replace(/\.md$/iu, '')
@@ -53,6 +54,8 @@ function isMainModule() {
 
 if (isMainModule()) {
   const summary = generateRecipeData()
+  const generatedRecipes = JSON.parse(readUtf8(path.join(summary.outputDir, 'recipes.generated.json')))
+  const search = generateSearch(generatedRecipes.recipes, summary.outputDir)
   const indexes = generateIndexes()
-  console.log(`[generate-indexes] updated=${indexes.updated} skipped=${indexes.skipped} recipes=${summary.recipeCount}`)
+  console.log(`[generate-indexes] updated=${indexes.updated} skipped=${indexes.skipped} recipes=${summary.recipeCount} search=${search.documents.length}`)
 }
