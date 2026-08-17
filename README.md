@@ -10,6 +10,12 @@
 
 # 像老乡鸡那样做饭
 
+## 致谢
+
+本项目感谢原作者 [Gar-b-age/CookLikeHOC](https://github.com/Gar-b-age/CookLikeHOC) 及所有贡献者提供的菜谱内容资产与创作基础。
+
+当前仓库 [zhs1234/lxj-cook](https://github.com/zhs1234/lxj-cook) 是基于原始 Markdown 内容进行的独立网站重构与展示实现，不代表原作者的官方项目，也不改变原仓库的归属和声明。
+
 ## 声明
 
 本仓库 **Gar-b-age/CookLikeHOC** 与网站 **cooklikehoc.com** **无任何关联**。
