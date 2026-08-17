@@ -1,0 +1,1985 @@
+{
+  "schemaVersion": 1,
+  "summary": {
+    "recipeCount": 336,
+    "warningCounts": {
+      "image-not-resolved": 136,
+      "missing-step-section": 11,
+      "missing-ingredient-section": 3
+    },
+    "imageMatched": 200,
+    "nutritionPresent": 87,
+    "internalIngredientLinks": 79
+  },
+  "recipes": [
+    {
+      "id": "炒菜/鹌鹑蛋红烧肉",
+      "sourcePath": "炒菜/鹌鹑蛋红烧肉.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/包菜炒鸡蛋",
+      "sourcePath": "炒菜/包菜炒鸡蛋.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/爆炒牛肉",
+      "sourcePath": "炒菜/爆炒牛肉.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/菠萝咕咾肉",
+      "sourcePath": "炒菜/菠萝咕咾肉.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/菠萝咕咾肉时蔬饭",
+      "sourcePath": "炒菜/菠萝咕咾肉时蔬饭.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/蚕豆炒鸡蛋",
+      "sourcePath": "炒菜/蚕豆炒鸡蛋.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/蚕豆炒虾仁",
+      "sourcePath": "炒菜/蚕豆炒虾仁.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/豆皮毛白菜",
+      "sourcePath": "炒菜/豆皮毛白菜.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/剁椒木耳炒鸡蛋",
+      "sourcePath": "炒菜/剁椒木耳炒鸡蛋.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/肥肠鸡",
+      "sourcePath": "炒菜/肥肠鸡.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/宫保鸡丁",
+      "sourcePath": "炒菜/宫保鸡丁.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/贵州风味辣子鸡",
+      "sourcePath": "炒菜/贵州风味辣子鸡.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/红烧茄子",
+      "sourcePath": "炒菜/红烧茄子.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/胡萝卜炒鸡蛋",
+      "sourcePath": "炒菜/胡萝卜炒鸡蛋.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/胡萝卜炒木耳",
+      "sourcePath": "炒菜/胡萝卜炒木耳.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/胡萝卜炒肉片",
+      "sourcePath": "炒菜/胡萝卜炒肉片.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/胡萝卜炒肉丝",
+      "sourcePath": "炒菜/胡萝卜炒肉丝.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/黄瓜炒红肠",
+      "sourcePath": "炒菜/黄瓜炒红肠.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/家常土豆片",
+      "sourcePath": "炒菜/家常土豆片.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/家常小炒",
+      "sourcePath": "炒菜/家常小炒.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/经典毛豆烧鸡",
+      "sourcePath": "炒菜/经典毛豆烧鸡.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/毛豆烧土鸡",
+      "sourcePath": "炒菜/毛豆烧土鸡.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/农家小炒肉（鸡蛋干）",
+      "sourcePath": "炒菜/农家小炒肉（鸡蛋干）.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/农家小炒肉（鸡蛋干版本）",
+      "sourcePath": "炒菜/农家小炒肉（鸡蛋干版本）.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/农家小炒肉（玉耳）",
+      "sourcePath": "炒菜/农家小炒肉（玉耳）.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/农家小炒肉（玉耳版本）",
+      "sourcePath": "炒菜/农家小炒肉（玉耳版本）.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/芹菜炒香干",
+      "sourcePath": "炒菜/芹菜炒香干.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/芹菜香干炒肉丝",
+      "sourcePath": "炒菜/芹菜香干炒肉丝.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/青椒炒豆芽",
+      "sourcePath": "炒菜/青椒炒豆芽.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/青椒炒鸡蛋",
+      "sourcePath": "炒菜/青椒炒鸡蛋.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/青椒毛豆米",
+      "sourcePath": "炒菜/青椒毛豆米.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/清炒菜心",
+      "sourcePath": "炒菜/清炒菜心.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/清炒春菜",
+      "sourcePath": "炒菜/清炒春菜.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/清炒毛白菜",
+      "sourcePath": "炒菜/清炒毛白菜.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/清炒青菜",
+      "sourcePath": "炒菜/清炒青菜.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/清炒莴笋片",
+      "sourcePath": "炒菜/清炒莴笋片.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/清炒西兰花",
+      "sourcePath": "炒菜/清炒西兰花.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/清炒油麦菜",
+      "sourcePath": "炒菜/清炒油麦菜.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/什锦蛋炒饭",
+      "sourcePath": "炒菜/什锦蛋炒饭.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/生炒上海青",
+      "sourcePath": "炒菜/生炒上海青.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/酸辣包菜",
+      "sourcePath": "炒菜/酸辣包菜.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/酸辣大白菜",
+      "sourcePath": "炒菜/酸辣大白菜.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/酸辣海带丝",
+      "sourcePath": "炒菜/酸辣海带丝.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/酸辣土豆丝",
+      "sourcePath": "炒菜/酸辣土豆丝.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/蒜黄炒鸡蛋",
+      "sourcePath": "炒菜/蒜黄炒鸡蛋.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/蒜泥菠菜",
+      "sourcePath": "炒菜/蒜泥菠菜.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/蒜苔炒鸡胗",
+      "sourcePath": "炒菜/蒜苔炒鸡胗.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/蒜苔炒木耳",
+      "sourcePath": "炒菜/蒜苔炒木耳.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/蒜苔炒香干",
+      "sourcePath": "炒菜/蒜苔炒香干.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/笋子鸡丁盖饭",
+      "sourcePath": "炒菜/笋子鸡丁盖饭.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/笋子烧肉",
+      "sourcePath": "炒菜/笋子烧肉.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/糖醋排骨",
+      "sourcePath": "炒菜/糖醋排骨.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/外婆菜炒鸡蛋",
+      "sourcePath": "炒菜/外婆菜炒鸡蛋.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/莴笋丝炒鸡蛋",
+      "sourcePath": "炒菜/莴笋丝炒鸡蛋.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/西红柿炒鸡蛋",
+      "sourcePath": "炒菜/西红柿炒鸡蛋.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/西兰花炒鸡胸肉",
+      "sourcePath": "炒菜/西兰花炒鸡胸肉.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/西芹炒虾仁",
+      "sourcePath": "炒菜/西芹炒虾仁.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/香椿炒鸡蛋",
+      "sourcePath": "炒菜/香椿炒鸡蛋.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/香菇青菜",
+      "sourcePath": "炒菜/香菇青菜.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/小炒脆笋",
+      "sourcePath": "炒菜/小炒脆笋.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炒菜/小炒河虾",
+      "sourcePath": "炒菜/小炒河虾.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/小炒花菜",
+      "sourcePath": "炒菜/小炒花菜.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/小炒黄牛肉",
+      "sourcePath": "炒菜/小炒黄牛肉.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/小炒鸡丁",
+      "sourcePath": "炒菜/小炒鸡丁.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/小炒面筋",
+      "sourcePath": "炒菜/小炒面筋.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/小炒香干",
+      "sourcePath": "炒菜/小炒香干.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/油渣大白菜",
+      "sourcePath": "炒菜/油渣大白菜.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/鱼香肉丝",
+      "sourcePath": "炒菜/鱼香肉丝.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/鱼香肉丝盖饭",
+      "sourcePath": "炒菜/鱼香肉丝盖饭.md",
+      "warnings": []
+    },
+    {
+      "id": "炒菜/芋儿鸡",
+      "sourcePath": "炒菜/芋儿鸡.md",
+      "warnings": []
+    },
+    {
+      "id": "炖菜/白菜炖豆腐",
+      "sourcePath": "炖菜/白菜炖豆腐.md",
+      "warnings": []
+    },
+    {
+      "id": "炖菜/红烧冬瓜",
+      "sourcePath": "炖菜/红烧冬瓜.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炖菜/红烧鱼块",
+      "sourcePath": "炖菜/红烧鱼块.md",
+      "warnings": []
+    },
+    {
+      "id": "炖菜/鸡血汤",
+      "sourcePath": "炖菜/鸡血汤.md",
+      "warnings": []
+    },
+    {
+      "id": "炖菜/麻婆豆腐",
+      "sourcePath": "炖菜/麻婆豆腐.md",
+      "warnings": []
+    },
+    {
+      "id": "炖菜/梅干菜凤爪翅",
+      "sourcePath": "炖菜/梅干菜凤爪翅.md",
+      "warnings": []
+    },
+    {
+      "id": "炖菜/肉汁素鸡",
+      "sourcePath": "炖菜/肉汁素鸡.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炖菜/酸菜血旺豆腐",
+      "sourcePath": "炖菜/酸菜血旺豆腐.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炖菜/甜辣辣年糕烧鸡",
+      "sourcePath": "炖菜/甜辣辣年糕烧鸡.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炖菜/土豆牛腩",
+      "sourcePath": "炖菜/土豆牛腩.md",
+      "warnings": []
+    },
+    {
+      "id": "炖菜/香辣鸡杂",
+      "sourcePath": "炖菜/香辣鸡杂.md",
+      "warnings": []
+    },
+    {
+      "id": "炖菜/小鸡炖蘑菇",
+      "sourcePath": "炖菜/小鸡炖蘑菇.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炖菜/银鱼浦鸡蛋",
+      "sourcePath": "炖菜/银鱼浦鸡蛋.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "烤类/烤肠",
+      "sourcePath": "烤类/烤肠.md",
+      "warnings": []
+    },
+    {
+      "id": "凉拌/口水鸡",
+      "sourcePath": "凉拌/口水鸡.md",
+      "warnings": []
+    },
+    {
+      "id": "凉拌/凉拌莴笋丝",
+      "sourcePath": "凉拌/凉拌莴笋丝.md",
+      "warnings": []
+    },
+    {
+      "id": "凉拌/柠檬凤爪",
+      "sourcePath": "凉拌/柠檬凤爪.md",
+      "warnings": []
+    },
+    {
+      "id": "凉拌/西芹花生米",
+      "sourcePath": "凉拌/西芹花生米.md",
+      "warnings": []
+    },
+    {
+      "id": "卤菜/把子肉",
+      "sourcePath": "卤菜/把子肉.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "卤菜/薄皮青椒",
+      "sourcePath": "卤菜/薄皮青椒.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "卤菜/嗨嗨桶（红油串串）",
+      "sourcePath": "卤菜/嗨嗨桶（红油串串）.md",
+      "warnings": []
+    },
+    {
+      "id": "卤菜/海带结",
+      "sourcePath": "卤菜/海带结.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "卤菜/卤翅根",
+      "sourcePath": "卤菜/卤翅根.md",
+      "warnings": []
+    },
+    {
+      "id": "卤菜/卤大排",
+      "sourcePath": "卤菜/卤大排.md",
+      "warnings": []
+    },
+    {
+      "id": "卤菜/卤方干",
+      "sourcePath": "卤菜/卤方干.md",
+      "warnings": []
+    },
+    {
+      "id": "卤菜/卤鸡腿",
+      "sourcePath": "卤菜/卤鸡腿.md",
+      "warnings": []
+    },
+    {
+      "id": "卤菜/卤鸡爪",
+      "sourcePath": "卤菜/卤鸡爪.md",
+      "warnings": []
+    },
+    {
+      "id": "卤菜/卤肉肠",
+      "sourcePath": "卤菜/卤肉肠.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "卤菜/咸蛋黄狮子头（卤制版）",
+      "sourcePath": "卤菜/咸蛋黄狮子头（卤制版）.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/炒菜基料",
+      "sourcePath": "配料/炒菜基料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/豉油汁",
+      "sourcePath": "配料/豉油汁.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/葱油",
+      "sourcePath": "配料/葱油.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/调味料（鸡汤专用）",
+      "sourcePath": "配料/调味料（鸡汤专用）.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/调味料（小炒鸡丁）",
+      "sourcePath": "配料/调味料（小炒鸡丁）.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/剁椒酱",
+      "sourcePath": "配料/剁椒酱.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/剁椒鱼头料",
+      "sourcePath": "配料/剁椒鱼头料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/番茄汤膏",
+      "sourcePath": "配料/番茄汤膏.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/肥肠鸡酱料",
+      "sourcePath": "配料/肥肠鸡酱料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/风干牛肉酱料",
+      "sourcePath": "配料/风干牛肉酱料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/宫保鸡丁调味酱",
+      "sourcePath": "配料/宫保鸡丁调味酱.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/果味糖醋酱",
+      "sourcePath": "配料/果味糖醋酱.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/糊辣油",
+      "sourcePath": "配料/糊辣油.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/花椒汁",
+      "sourcePath": "配料/花椒汁.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/鸡翅调料",
+      "sourcePath": "配料/鸡翅调料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/鸡胸肉调味汁",
+      "sourcePath": "配料/鸡胸肉调味汁.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/鸡油料",
+      "sourcePath": "配料/鸡油料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/鸡杂料",
+      "sourcePath": "配料/鸡杂料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/鸡汁辣鱼料",
+      "sourcePath": "配料/鸡汁辣鱼料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/家常小炒料",
+      "sourcePath": "配料/家常小炒料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/姜汁",
+      "sourcePath": "配料/姜汁.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/酱蒸白干料",
+      "sourcePath": "配料/酱蒸白干料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/卤油",
+      "sourcePath": "配料/卤油.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/麻婆豆腐料",
+      "sourcePath": "配料/麻婆豆腐料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/毛豆烧鸡料",
+      "sourcePath": "配料/毛豆烧鸡料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/糯米酒汁",
+      "sourcePath": "配料/糯米酒汁.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/三鲜豆腐汤料",
+      "sourcePath": "配料/三鲜豆腐汤料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/水煮料调味酱",
+      "sourcePath": "配料/水煮料调味酱.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/素鸡煲调味料",
+      "sourcePath": "配料/素鸡煲调味料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/蒜蓉酱",
+      "sourcePath": "配料/蒜蓉酱.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/小炒河虾料",
+      "sourcePath": "配料/小炒河虾料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/小炒肉调料",
+      "sourcePath": "配料/小炒肉调料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/小炒肉调料(2026年更新)",
+      "sourcePath": "配料/小炒肉调料(2026年更新).md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/小炒肉调味汁",
+      "sourcePath": "配料/小炒肉调味汁.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/血旺料",
+      "sourcePath": "配料/血旺料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/油焖茄子料",
+      "sourcePath": "配料/油焖茄子料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/鱼香风味酱",
+      "sourcePath": "配料/鱼香风味酱.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/原味酸菜鱼底料",
+      "sourcePath": "配料/原味酸菜鱼底料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/蒸蛋料",
+      "sourcePath": "配料/蒸蛋料.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "配料/蒸鱼调味汁",
+      "sourcePath": "配料/蒸鱼调味汁.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "砂锅菜/砂锅豆花鸡",
+      "sourcePath": "砂锅菜/砂锅豆花鸡.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "砂锅菜/砂锅番茄米线",
+      "sourcePath": "砂锅菜/砂锅番茄米线.md",
+      "warnings": []
+    },
+    {
+      "id": "砂锅菜/砂锅腐竹",
+      "sourcePath": "砂锅菜/砂锅腐竹.md",
+      "warnings": []
+    },
+    {
+      "id": "砂锅菜/砂锅老坛酸菜鱼",
+      "sourcePath": "砂锅菜/砂锅老坛酸菜鱼.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "砂锅菜/砂锅木瓜",
+      "sourcePath": "砂锅菜/砂锅木瓜.md",
+      "warnings": []
+    },
+    {
+      "id": "砂锅菜/砂锅牛杂煲",
+      "sourcePath": "砂锅菜/砂锅牛杂煲.md",
+      "warnings": []
+    },
+    {
+      "id": "砂锅菜/砂锅泡椒鸡米花米线",
+      "sourcePath": "砂锅菜/砂锅泡椒鸡米花米线.md",
+      "warnings": []
+    },
+    {
+      "id": "砂锅菜/砂锅肉汁素鸡",
+      "sourcePath": "砂锅菜/砂锅肉汁素鸡.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "砂锅菜/砂锅三鲜豆腐",
+      "sourcePath": "砂锅菜/砂锅三鲜豆腐.md",
+      "warnings": []
+    },
+    {
+      "id": "砂锅菜/砂锅酸菜鱼",
+      "sourcePath": "砂锅菜/砂锅酸菜鱼.md",
+      "warnings": []
+    },
+    {
+      "id": "砂锅菜/砂锅蒜蓉粉丝虾",
+      "sourcePath": "砂锅菜/砂锅蒜蓉粉丝虾.md",
+      "warnings": []
+    },
+    {
+      "id": "砂锅菜/砂锅香辣鱿鱼",
+      "sourcePath": "砂锅菜/砂锅香辣鱿鱼.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "砂锅菜/砂锅盐焗鸡",
+      "sourcePath": "砂锅菜/砂锅盐焗鸡.md",
+      "warnings": []
+    },
+    {
+      "id": "砂锅菜/砂锅原味鸡汤米线",
+      "sourcePath": "砂锅菜/砂锅原味鸡汤米线.md",
+      "warnings": []
+    },
+    {
+      "id": "砂锅菜/酸菜肥肠煲",
+      "sourcePath": "砂锅菜/酸菜肥肠煲.md",
+      "warnings": []
+    },
+    {
+      "id": "汤/肥西老母鸡汤（单品）",
+      "sourcePath": "汤/肥西老母鸡汤（单品）.md",
+      "warnings": []
+    },
+    {
+      "id": "汤/金牌老母鸡汤",
+      "sourcePath": "汤/金牌老母鸡汤.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "汤/菌菇鸡汤",
+      "sourcePath": "汤/菌菇鸡汤.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "汤/老鸡汤",
+      "sourcePath": "汤/老鸡汤.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "汤/竹荪鹿茸菇鸡汤",
+      "sourcePath": "汤/竹荪鹿茸菇鸡汤.md",
+      "warnings": []
+    },
+    {
+      "id": "烫菜/白灼虾（8只）",
+      "sourcePath": "烫菜/白灼虾（8只）.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "烫菜/菠菜蛋皮丝",
+      "sourcePath": "烫菜/菠菜蛋皮丝.md",
+      "warnings": []
+    },
+    {
+      "id": "烫菜/葱油拌面",
+      "sourcePath": "烫菜/葱油拌面.md",
+      "warnings": []
+    },
+    {
+      "id": "烫菜/葱油菜苔",
+      "sourcePath": "烫菜/葱油菜苔.md",
+      "warnings": []
+    },
+    {
+      "id": "烫菜/葱油菜心",
+      "sourcePath": "烫菜/葱油菜心.md",
+      "warnings": []
+    },
+    {
+      "id": "烫菜/葱油青菜",
+      "sourcePath": "烫菜/葱油青菜.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "烫菜/葱油生菜",
+      "sourcePath": "烫菜/葱油生菜.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "烫菜/鸡汤娃娃菜",
+      "sourcePath": "烫菜/鸡汤娃娃菜.md",
+      "warnings": []
+    },
+    {
+      "id": "烫菜/浇汁西兰花",
+      "sourcePath": "烫菜/浇汁西兰花.md",
+      "warnings": []
+    },
+    {
+      "id": "烫菜/麻辣鸡块",
+      "sourcePath": "烫菜/麻辣鸡块.md",
+      "warnings": []
+    },
+    {
+      "id": "烫菜/特色热干面",
+      "sourcePath": "烫菜/特色热干面.md",
+      "warnings": []
+    },
+    {
+      "id": "烫菜/香脆木耳",
+      "sourcePath": "烫菜/香脆木耳.md",
+      "warnings": []
+    },
+    {
+      "id": "饮品/东方树叶（335mL）",
+      "sourcePath": "饮品/东方树叶（335mL）.md",
+      "warnings": [
+        "missing-step-section",
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "饮品/红豆酒酿",
+      "sourcePath": "饮品/红豆酒酿.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "饮品/猴头菇山药玉米糊",
+      "sourcePath": "饮品/猴头菇山药玉米糊.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "饮品/鸡笼香柠檬茶",
+      "sourcePath": "饮品/鸡笼香柠檬茶.md",
+      "warnings": []
+    },
+    {
+      "id": "饮品/劲酒",
+      "sourcePath": "饮品/劲酒.md",
+      "warnings": [
+        "missing-step-section",
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "饮品/精酿啤酒330mL",
+      "sourcePath": "饮品/精酿啤酒330mL.md",
+      "warnings": [
+        "missing-step-section",
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "饮品/酒酿蛋花甜羹",
+      "sourcePath": "饮品/酒酿蛋花甜羹.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "饮品/蒙牛纯牛奶（150mL）",
+      "sourcePath": "饮品/蒙牛纯牛奶（150mL）.md",
+      "warnings": [
+        "missing-step-section",
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "饮品/摩登罐装芬达",
+      "sourcePath": "饮品/摩登罐装芬达.md",
+      "warnings": [
+        "missing-step-section",
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "饮品/摩登罐装可乐",
+      "sourcePath": "饮品/摩登罐装可乐.md",
+      "warnings": [
+        "missing-step-section",
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "饮品/摩登罐装雪碧",
+      "sourcePath": "饮品/摩登罐装雪碧.md",
+      "warnings": [
+        "missing-step-section",
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "饮品/摩登零度可乐",
+      "sourcePath": "饮品/摩登零度可乐.md",
+      "warnings": [
+        "missing-step-section",
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "饮品/奶皮子酸奶",
+      "sourcePath": "饮品/奶皮子酸奶.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "饮品/农夫山泉矿泉水（运动盖）",
+      "sourcePath": "饮品/农夫山泉矿泉水（运动盖）.md",
+      "warnings": [
+        "missing-step-section",
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "饮品/苹果山楂红茶",
+      "sourcePath": "饮品/苹果山楂红茶.md",
+      "warnings": []
+    },
+    {
+      "id": "饮品/热奶茶",
+      "sourcePath": "饮品/热奶茶.md",
+      "warnings": []
+    },
+    {
+      "id": "饮品/雪花纯生啤酒（罐装）",
+      "sourcePath": "饮品/雪花纯生啤酒（罐装）.md",
+      "warnings": [
+        "missing-step-section",
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "饮品/银耳莲子炖梨",
+      "sourcePath": "饮品/银耳莲子炖梨.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "饮品/原味豆浆",
+      "sourcePath": "饮品/原味豆浆.md",
+      "warnings": [
+        "missing-ingredient-section",
+        "missing-step-section"
+      ]
+    },
+    {
+      "id": "饮品/原味豆浆（冲调版本）",
+      "sourcePath": "饮品/原味豆浆（冲调版本）.md",
+      "warnings": []
+    },
+    {
+      "id": "饮品/原味豆浆（现磨版本）",
+      "sourcePath": "饮品/原味豆浆（现磨版本）.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/白米粥",
+      "sourcePath": "早餐/白米粥.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/包子",
+      "sourcePath": "早餐/包子.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/茶叶蛋",
+      "sourcePath": "早餐/茶叶蛋.md",
+      "warnings": [
+        "missing-ingredient-section"
+      ]
+    },
+    {
+      "id": "早餐/赤豆糊元宵",
+      "sourcePath": "早餐/赤豆糊元宵.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/糍糕",
+      "sourcePath": "早餐/糍糕.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "早餐/葱香酱肉包",
+      "sourcePath": "早餐/葱香酱肉包.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "早餐/蛋饼",
+      "sourcePath": "早餐/蛋饼.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/饭团",
+      "sourcePath": "早餐/饭团.md",
+      "warnings": [
+        "missing-ingredient-section"
+      ]
+    },
+    {
+      "id": "早餐/黑全麦鸡丁包",
+      "sourcePath": "早餐/黑全麦鸡丁包.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "早餐/花卷",
+      "sourcePath": "早餐/花卷.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/鸡丝沙汤",
+      "sourcePath": "早餐/鸡丝沙汤.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "早餐/鸡汁辣糊汤",
+      "sourcePath": "早餐/鸡汁辣糊汤.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/鸡汁汤包",
+      "sourcePath": "早餐/鸡汁汤包.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/荠菜鲜肉蒸饺",
+      "sourcePath": "早餐/荠菜鲜肉蒸饺.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/老面馒头",
+      "sourcePath": "早餐/老面馒头.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "早餐/老面小笼包",
+      "sourcePath": "早餐/老面小笼包.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/馒头",
+      "sourcePath": "早餐/馒头.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/奶黄鸡包",
+      "sourcePath": "早餐/奶黄鸡包.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/牛肉盒",
+      "sourcePath": "早餐/牛肉盒.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/糯米杂谷饭团（奥尔良鸡肉馅）",
+      "sourcePath": "早餐/糯米杂谷饭团（奥尔良鸡肉馅）.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "早餐/皮蛋瘦肉粥",
+      "sourcePath": "早餐/皮蛋瘦肉粥.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "早餐/手工春卷",
+      "sourcePath": "早餐/手工春卷.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/手工烧麦",
+      "sourcePath": "早餐/手工烧麦.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/蔬菜鸡蛋卷饼",
+      "sourcePath": "早餐/蔬菜鸡蛋卷饼.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "早餐/水煮蛋",
+      "sourcePath": "早餐/水煮蛋.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/酥皮萝卜丝馅饼",
+      "sourcePath": "早餐/酥皮萝卜丝馅饼.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/现熬豆粥",
+      "sourcePath": "早餐/现熬豆粥.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/现炸大油条",
+      "sourcePath": "早餐/现炸大油条.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/香脆春卷",
+      "sourcePath": "早餐/香脆春卷.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "早餐/香脆土豆丝饼",
+      "sourcePath": "早餐/香脆土豆丝饼.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "早餐/香菇青菜包（菠菜面皮）",
+      "sourcePath": "早餐/香菇青菜包（菠菜面皮）.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "早餐/香菇猪肉烧麦",
+      "sourcePath": "早餐/香菇猪肉烧麦.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "早餐/香酥牛肉饼",
+      "sourcePath": "早餐/香酥牛肉饼.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/小米南瓜粥",
+      "sourcePath": "早餐/小米南瓜粥.md",
+      "warnings": []
+    },
+    {
+      "id": "早餐/粢饭糕",
+      "sourcePath": "早餐/粢饭糕.md",
+      "warnings": []
+    },
+    {
+      "id": "炸品/傲椒风味翅尖",
+      "sourcePath": "炸品/傲椒风味翅尖.md",
+      "warnings": []
+    },
+    {
+      "id": "炸品/棒棒虾",
+      "sourcePath": "炸品/棒棒虾.md",
+      "warnings": []
+    },
+    {
+      "id": "炸品/脆皮鸡翅",
+      "sourcePath": "炸品/脆皮鸡翅.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炸品/嗨嗨桶（炸物桶）",
+      "sourcePath": "炸品/嗨嗨桶（炸物桶）.md",
+      "warnings": []
+    },
+    {
+      "id": "炸品/鸡肉洋葱圈",
+      "sourcePath": "炸品/鸡肉洋葱圈.md",
+      "warnings": []
+    },
+    {
+      "id": "炸品/生炸大鸡腿",
+      "sourcePath": "炸品/生炸大鸡腿.md",
+      "warnings": []
+    },
+    {
+      "id": "炸品/手枪大鸡腿",
+      "sourcePath": "炸品/手枪大鸡腿.md",
+      "warnings": []
+    },
+    {
+      "id": "炸品/薯条",
+      "sourcePath": "炸品/薯条.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "炸品/糖糕（红糖馅）",
+      "sourcePath": "炸品/糖糕（红糖馅）.md",
+      "warnings": []
+    },
+    {
+      "id": "炸品/香脆薯饼",
+      "sourcePath": "炸品/香脆薯饼.md",
+      "warnings": []
+    },
+    {
+      "id": "炸品/香酥鸡米花",
+      "sourcePath": "炸品/香酥鸡米花.md",
+      "warnings": []
+    },
+    {
+      "id": "炸品/香芋地瓜丸",
+      "sourcePath": "炸品/香芋地瓜丸.md",
+      "warnings": []
+    },
+    {
+      "id": "炸品/心形鸡排",
+      "sourcePath": "炸品/心形鸡排.md",
+      "warnings": []
+    },
+    {
+      "id": "炸品/炸鸡排",
+      "sourcePath": "炸品/炸鸡排.md",
+      "warnings": []
+    },
+    {
+      "id": "炸品/炸鸡排（调理鸡排）",
+      "sourcePath": "炸品/炸鸡排（调理鸡排）.md",
+      "warnings": []
+    },
+    {
+      "id": "炸品/炸鸡排（普通鸡排）",
+      "sourcePath": "炸品/炸鸡排（普通鸡排）.md",
+      "warnings": []
+    },
+    {
+      "id": "炸品/炸鸡腿",
+      "sourcePath": "炸品/炸鸡腿.md",
+      "warnings": []
+    },
+    {
+      "id": "炸品/炸肉肠",
+      "sourcePath": "炸品/炸肉肠.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "蒸菜/奥尔良鸡翅",
+      "sourcePath": "蒸菜/奥尔良鸡翅.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/白切鸡",
+      "sourcePath": "蒸菜/白切鸡.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/百叶包肉",
+      "sourcePath": "蒸菜/百叶包肉.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "蒸菜/豉汁鱼块",
+      "sourcePath": "蒸菜/豉汁鱼块.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "蒸菜/葱油鸡",
+      "sourcePath": "蒸菜/葱油鸡.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/葱油鸡（白切鸡版）",
+      "sourcePath": "蒸菜/葱油鸡（白切鸡版）.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/葱油鸡（鸡排腿版）",
+      "sourcePath": "蒸菜/葱油鸡（鸡排腿版）.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/葱油鸡（小母鸡版）",
+      "sourcePath": "蒸菜/葱油鸡（小母鸡版）.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/粗粮盒",
+      "sourcePath": "蒸菜/粗粮盒.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/剁椒鱼头",
+      "sourcePath": "蒸菜/剁椒鱼头.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/剁椒鱼头（白鲢鱼头版）",
+      "sourcePath": "蒸菜/剁椒鱼头（白鲢鱼头版）.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/剁椒鱼头（草鱼头版）",
+      "sourcePath": "蒸菜/剁椒鱼头（草鱼头版）.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/番茄菌菇肉丸",
+      "sourcePath": "蒸菜/番茄菌菇肉丸.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "蒸菜/粉蒸肉",
+      "sourcePath": "蒸菜/粉蒸肉.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/风干牛肉蒸白干",
+      "sourcePath": "蒸菜/风干牛肉蒸白干.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/凤爪蒸豆米",
+      "sourcePath": "蒸菜/凤爪蒸豆米.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/胡萝卜牛肉",
+      "sourcePath": "蒸菜/胡萝卜牛肉.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/活珠子",
+      "sourcePath": "蒸菜/活珠子.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/鸡汁辣鱼",
+      "sourcePath": "蒸菜/鸡汁辣鱼.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/酱椒蒜香片片鱼",
+      "sourcePath": "蒸菜/酱椒蒜香片片鱼.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/酱香小河虾",
+      "sourcePath": "蒸菜/酱香小河虾.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/酱蒸白干",
+      "sourcePath": "蒸菜/酱蒸白干.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/酱蒸豆腐",
+      "sourcePath": "蒸菜/酱蒸豆腐.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/梅菜扣肉",
+      "sourcePath": "蒸菜/梅菜扣肉.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/秘汁卤肉饭",
+      "sourcePath": "蒸菜/秘汁卤肉饭.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/蜜汁南瓜",
+      "sourcePath": "蒸菜/蜜汁南瓜.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/农家蒸蛋",
+      "sourcePath": "蒸菜/农家蒸蛋.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/青椒蒸豆米",
+      "sourcePath": "蒸菜/青椒蒸豆米.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "蒸菜/肉饼蒸蛋",
+      "sourcePath": "蒸菜/肉饼蒸蛋.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/肉饼蒸蛋（常规版）",
+      "sourcePath": "蒸菜/肉饼蒸蛋（常规版）.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/肉饼蒸蛋（马蹄版）",
+      "sourcePath": "蒸菜/肉饼蒸蛋（马蹄版）.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/三色虾仁",
+      "sourcePath": "蒸菜/三色虾仁.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/松糕",
+      "sourcePath": "蒸菜/松糕.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/蒜蓉粉丝虾",
+      "sourcePath": "蒸菜/蒜蓉粉丝虾.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/蒜蓉娃娃菜",
+      "sourcePath": "蒸菜/蒜蓉娃娃菜.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/豌豆肉末",
+      "sourcePath": "蒸菜/豌豆肉末.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "蒸菜/虾仁蒸鸡蛋",
+      "sourcePath": "蒸菜/虾仁蒸鸡蛋.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/咸蛋黄狮子头（蒸制版）",
+      "sourcePath": "蒸菜/咸蛋黄狮子头（蒸制版）.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "蒸菜/香肠蒸豆干",
+      "sourcePath": "蒸菜/香肠蒸豆干.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "蒸菜/香肠蒸豆米",
+      "sourcePath": "蒸菜/香肠蒸豆米.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/香辣红油鸡（白切鸡版）",
+      "sourcePath": "蒸菜/香辣红油鸡（白切鸡版）.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "蒸菜/香辣红油鸡（鸡排腿版）",
+      "sourcePath": "蒸菜/香辣红油鸡（鸡排腿版）.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "蒸菜/香辣红油鸡（小母鸡版）",
+      "sourcePath": "蒸菜/香辣红油鸡（小母鸡版）.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "蒸菜/香辣血旺",
+      "sourcePath": "蒸菜/香辣血旺.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/香芋蒸排骨",
+      "sourcePath": "蒸菜/香芋蒸排骨.md",
+      "warnings": []
+    },
+    {
+      "id": "蒸菜/珍珠糯米肉丸",
+      "sourcePath": "蒸菜/珍珠糯米肉丸.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "蒸菜/蒸南瓜",
+      "sourcePath": "蒸菜/蒸南瓜.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "蒸菜/蒸嫩豆腐",
+      "sourcePath": "蒸菜/蒸嫩豆腐.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "蒸菜/竹笋蒸鸡翅",
+      "sourcePath": "蒸菜/竹笋蒸鸡翅.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/大大大块牛腩面",
+      "sourcePath": "主食/大大大块牛腩面.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/大排面",
+      "sourcePath": "主食/大排面.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/大盘肥肠鸡手工面",
+      "sourcePath": "主食/大盘肥肠鸡手工面.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/番茄鸡蛋面",
+      "sourcePath": "主食/番茄鸡蛋面.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/肥西老母鸡汤面",
+      "sourcePath": "主食/肥西老母鸡汤面.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/鸡杂手擀面",
+      "sourcePath": "主食/鸡杂手擀面.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "主食/姬松茸菌子鸡汤面",
+      "sourcePath": "主食/姬松茸菌子鸡汤面.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "主食/老鸡扬米面",
+      "sourcePath": "主食/老鸡扬米面.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/老母鸡汤面",
+      "sourcePath": "主食/老母鸡汤面.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/米饭",
+      "sourcePath": "主食/米饭.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/浓香整块鸡汤面",
+      "sourcePath": "主食/浓香整块鸡汤面.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/泡椒鸡杂面",
+      "sourcePath": "主食/泡椒鸡杂面.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "主食/砂锅荠菜鲜肉馄饨",
+      "sourcePath": "主食/砂锅荠菜鲜肉馄饨.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/素面",
+      "sourcePath": "主食/素面.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/笋子鸡丁盖饭（包菜版）",
+      "sourcePath": "主食/笋子鸡丁盖饭（包菜版）.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/笋子鸡丁盖饭（菜苔版）",
+      "sourcePath": "主食/笋子鸡丁盖饭（菜苔版）.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/特色鸡汤馄饨",
+      "sourcePath": "主食/特色鸡汤馄饨.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/五彩鸡丝拌面",
+      "sourcePath": "主食/五彩鸡丝拌面.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "主食/西红柿炒鸡蛋盖饭",
+      "sourcePath": "主食/西红柿炒鸡蛋盖饭.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "主食/香菇鸡汤面",
+      "sourcePath": "主食/香菇鸡汤面.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/香辣鸡丁拌面",
+      "sourcePath": "主食/香辣鸡丁拌面.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/香辣牛腩面",
+      "sourcePath": "主食/香辣牛腩面.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "主食/香辣牛肉面",
+      "sourcePath": "主食/香辣牛肉面.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/雪菜肉丝面",
+      "sourcePath": "主食/雪菜肉丝面.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/阳春面",
+      "sourcePath": "主食/阳春面.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "主食/鱼香肉丝盖饭（包菜版）",
+      "sourcePath": "主食/鱼香肉丝盖饭（包菜版）.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/鱼香肉丝盖饭（菜苔版）",
+      "sourcePath": "主食/鱼香肉丝盖饭（菜苔版）.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/杂粮饭",
+      "sourcePath": "主食/杂粮饭.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/炸鸡腿时蔬面",
+      "sourcePath": "主食/炸鸡腿时蔬面.md",
+      "warnings": []
+    },
+    {
+      "id": "主食/紫薯杂粮饭",
+      "sourcePath": "主食/紫薯杂粮饭.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "主食/Q 弹虾滑馄饨",
+      "sourcePath": "主食/Q 弹虾滑馄饨.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "煮锅/嗨嗨锅（番茄肥牛锅）",
+      "sourcePath": "煮锅/嗨嗨锅（番茄肥牛锅）.md",
+      "warnings": []
+    },
+    {
+      "id": "煮锅/嗨嗨锅（泡椒鸡米花米线）",
+      "sourcePath": "煮锅/嗨嗨锅（泡椒鸡米花米线）.md",
+      "warnings": []
+    },
+    {
+      "id": "煮锅/嗨嗨锅（酸菜鱼米线）",
+      "sourcePath": "煮锅/嗨嗨锅（酸菜鱼米线）.md",
+      "warnings": []
+    },
+    {
+      "id": "煮锅/嗨嗨锅（鲜蔬锅）",
+      "sourcePath": "煮锅/嗨嗨锅（鲜蔬锅）.md",
+      "warnings": []
+    },
+    {
+      "id": "煮锅/金汤酸菜鱼",
+      "sourcePath": "煮锅/金汤酸菜鱼.md",
+      "warnings": []
+    },
+    {
+      "id": "煮锅/金汤酸菜鱼（大份）",
+      "sourcePath": "煮锅/金汤酸菜鱼（大份）.md",
+      "warnings": []
+    },
+    {
+      "id": "煮锅/冒烤鸭",
+      "sourcePath": "煮锅/冒烤鸭.md",
+      "warnings": []
+    },
+    {
+      "id": "煮锅/铜锅安格斯肥牛",
+      "sourcePath": "煮锅/铜锅安格斯肥牛.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "煮锅/铜锅川味水煮肉片",
+      "sourcePath": "煮锅/铜锅川味水煮肉片.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "煮锅/铜锅豆花鸡",
+      "sourcePath": "煮锅/铜锅豆花鸡.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    },
+    {
+      "id": "煮锅/铜锅番茄虾滑",
+      "sourcePath": "煮锅/铜锅番茄虾滑.md",
+      "warnings": [
+        "image-not-resolved"
+      ]
+    }
+  ]
+}

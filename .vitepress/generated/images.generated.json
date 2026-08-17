@@ -1,0 +1,3101 @@
+{
+  "schemaVersion": 1,
+  "images": [
+    {
+      "fileName": "傲椒风味翅尖.png",
+      "sourcePath": "images/傲椒风味翅尖.png",
+      "url": "/images/%E5%82%B2%E6%A4%92%E9%A3%8E%E5%91%B3%E7%BF%85%E5%B0%96.png",
+      "extension": "png",
+      "bytes": 29774,
+      "width": 187,
+      "height": 141,
+      "referencedBy": [
+        {
+          "recipeId": "炸品/傲椒风味翅尖",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "奥尔良鸡翅（儿童餐版）.jpg",
+      "sourcePath": "images/奥尔良鸡翅（儿童餐版）.jpg",
+      "url": "/images/%E5%A5%A5%E5%B0%94%E8%89%AF%E9%B8%A1%E7%BF%85%EF%BC%88%E5%84%BF%E7%AB%A5%E9%A4%90%E7%89%88%EF%BC%89.jpg",
+      "extension": "jpg",
+      "bytes": 4284,
+      "width": 181,
+      "height": 123,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/奥尔良鸡翅",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "白菜炖豆腐.jpg",
+      "sourcePath": "images/白菜炖豆腐.jpg",
+      "url": "/images/%E7%99%BD%E8%8F%9C%E7%82%96%E8%B1%86%E8%85%90.jpg",
+      "extension": "jpg",
+      "bytes": 5360,
+      "width": 172,
+      "height": 152,
+      "referencedBy": [
+        {
+          "recipeId": "炖菜/白菜炖豆腐",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "白米粥.png",
+      "sourcePath": "images/白米粥.png",
+      "url": "/images/%E7%99%BD%E7%B1%B3%E7%B2%A5.png",
+      "extension": "png",
+      "bytes": 29921,
+      "width": 182,
+      "height": 162,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/白米粥",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "白切鸡.png",
+      "sourcePath": "images/白切鸡.png",
+      "url": "/images/%E7%99%BD%E5%88%87%E9%B8%A1.png",
+      "extension": "png",
+      "bytes": 57637,
+      "width": 221,
+      "height": 148,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/白切鸡",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "棒棒虾.png",
+      "sourcePath": "images/棒棒虾.png",
+      "url": "/images/%E6%A3%92%E6%A3%92%E8%99%BE.png",
+      "extension": "png",
+      "bytes": 29467,
+      "width": 193,
+      "height": 160,
+      "referencedBy": [
+        {
+          "recipeId": "炸品/棒棒虾",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "包子.png",
+      "sourcePath": "images/包子.png",
+      "url": "/images/%E5%8C%85%E5%AD%90.png",
+      "extension": "png",
+      "bytes": 25480,
+      "width": 172,
+      "height": 155,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/包子",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "菠菜蛋皮丝.jpg",
+      "sourcePath": "images/菠菜蛋皮丝.jpg",
+      "url": "/images/%E8%8F%A0%E8%8F%9C%E8%9B%8B%E7%9A%AE%E4%B8%9D.jpg",
+      "extension": "jpg",
+      "bytes": 7066,
+      "width": 199,
+      "height": 154,
+      "referencedBy": [
+        {
+          "recipeId": "烫菜/菠菜蛋皮丝",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "菠萝咕咾肉.png",
+      "sourcePath": "images/菠萝咕咾肉.png",
+      "url": "/images/%E8%8F%A0%E8%90%9D%E5%92%95%E5%92%BE%E8%82%89.png",
+      "extension": "png",
+      "bytes": 36801,
+      "width": 182,
+      "height": 147,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/菠萝咕咾肉",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "菠萝咕咾肉时蔬饭.jpg",
+      "sourcePath": "images/菠萝咕咾肉时蔬饭.jpg",
+      "url": "/images/%E8%8F%A0%E8%90%9D%E5%92%95%E5%92%BE%E8%82%89%E6%97%B6%E8%94%AC%E9%A5%AD.jpg",
+      "extension": "jpg",
+      "bytes": 4498,
+      "width": 215,
+      "height": 158,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/菠萝咕咾肉时蔬饭",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "蚕豆炒鸡蛋.jpg",
+      "sourcePath": "images/蚕豆炒鸡蛋.jpg",
+      "url": "/images/%E8%9A%95%E8%B1%86%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+      "extension": "jpg",
+      "bytes": 5527,
+      "width": 187,
+      "height": 155,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/蚕豆炒鸡蛋",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "茶叶蛋.png",
+      "sourcePath": "images/茶叶蛋.png",
+      "url": "/images/%E8%8C%B6%E5%8F%B6%E8%9B%8B.png",
+      "extension": "png",
+      "bytes": 41509,
+      "width": 160,
+      "height": 166,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/茶叶蛋",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "赤豆糊元宵.png",
+      "sourcePath": "images/赤豆糊元宵.png",
+      "url": "/images/%E8%B5%A4%E8%B1%86%E7%B3%8A%E5%85%83%E5%AE%B5.png",
+      "extension": "png",
+      "bytes": 47627,
+      "width": 197,
+      "height": 151,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/赤豆糊元宵",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "葱油拌面.png",
+      "sourcePath": "images/葱油拌面.png",
+      "url": "/images/%E8%91%B1%E6%B2%B9%E6%8B%8C%E9%9D%A2.png",
+      "extension": "png",
+      "bytes": 45589,
+      "width": 263,
+      "height": 172,
+      "referencedBy": [
+        {
+          "recipeId": "烫菜/葱油拌面",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "葱油菜苔.png",
+      "sourcePath": "images/葱油菜苔.png",
+      "url": "/images/%E8%91%B1%E6%B2%B9%E8%8F%9C%E8%8B%94.png",
+      "extension": "png",
+      "bytes": 53247,
+      "width": 205,
+      "height": 143,
+      "referencedBy": [
+        {
+          "recipeId": "烫菜/葱油菜苔",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "葱油菜心.jpg",
+      "sourcePath": "images/葱油菜心.jpg",
+      "url": "/images/%E8%91%B1%E6%B2%B9%E8%8F%9C%E5%BF%83.jpg",
+      "extension": "jpg",
+      "bytes": 5910,
+      "width": 176,
+      "height": 140,
+      "referencedBy": [
+        {
+          "recipeId": "烫菜/葱油菜心",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "葱油鸡.png",
+      "sourcePath": "images/葱油鸡.png",
+      "url": "/images/%E8%91%B1%E6%B2%B9%E9%B8%A1.png",
+      "extension": "png",
+      "bytes": 34739,
+      "width": 217,
+      "height": 133,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/葱油鸡",
+          "matchType": "markdown-reference"
+        },
+        {
+          "recipeId": "蒸菜/葱油鸡（白切鸡版）",
+          "matchType": "containment"
+        },
+        {
+          "recipeId": "蒸菜/葱油鸡（鸡排腿版）",
+          "matchType": "containment"
+        },
+        {
+          "recipeId": "蒸菜/葱油鸡（小母鸡版）",
+          "matchType": "containment"
+        }
+      ],
+      "referenceCount": 4
+    },
+    {
+      "fileName": "粗粮盒.png",
+      "sourcePath": "images/粗粮盒.png",
+      "url": "/images/%E7%B2%97%E7%B2%AE%E7%9B%92.png",
+      "extension": "png",
+      "bytes": 37325,
+      "width": 190,
+      "height": 147,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/粗粮盒",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "大大大块牛腩面.png",
+      "sourcePath": "images/大大大块牛腩面.png",
+      "url": "/images/%E5%A4%A7%E5%A4%A7%E5%A4%A7%E5%9D%97%E7%89%9B%E8%85%A9%E9%9D%A2.png",
+      "extension": "png",
+      "bytes": 74822,
+      "width": 237,
+      "height": 175,
+      "referencedBy": [
+        {
+          "recipeId": "主食/大大大块牛腩面",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "大排面.png",
+      "sourcePath": "images/大排面.png",
+      "url": "/images/%E5%A4%A7%E6%8E%92%E9%9D%A2.png",
+      "extension": "png",
+      "bytes": 56629,
+      "width": 221,
+      "height": 164,
+      "referencedBy": [
+        {
+          "recipeId": "主食/大排面",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "大盘肥肠鸡手工面.png",
+      "sourcePath": "images/大盘肥肠鸡手工面.png",
+      "url": "/images/%E5%A4%A7%E7%9B%98%E8%82%A5%E8%82%A0%E9%B8%A1%E6%89%8B%E5%B7%A5%E9%9D%A2.png",
+      "extension": "png",
+      "bytes": 61679,
+      "width": 226,
+      "height": 145,
+      "referencedBy": [
+        {
+          "recipeId": "主食/大盘肥肠鸡手工面",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "蛋饼.png",
+      "sourcePath": "images/蛋饼.png",
+      "url": "/images/%E8%9B%8B%E9%A5%BC.png",
+      "extension": "png",
+      "bytes": 35657,
+      "width": 208,
+      "height": 150,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/蛋饼",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "剁椒木耳炒鸡蛋.jpg",
+      "sourcePath": "images/剁椒木耳炒鸡蛋.jpg",
+      "url": "/images/%E5%89%81%E6%A4%92%E6%9C%A8%E8%80%B3%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+      "extension": "jpg",
+      "bytes": 7173,
+      "width": 239,
+      "height": 163,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/剁椒木耳炒鸡蛋",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "剁椒鱼头（白鲢鱼头版）.png",
+      "sourcePath": "images/剁椒鱼头（白鲢鱼头版）.png",
+      "url": "/images/%E5%89%81%E6%A4%92%E9%B1%BC%E5%A4%B4%EF%BC%88%E7%99%BD%E9%B2%A2%E9%B1%BC%E5%A4%B4%E7%89%88%EF%BC%89.png",
+      "extension": "png",
+      "bytes": 49148,
+      "width": 204,
+      "height": 153,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/剁椒鱼头（白鲢鱼头版）",
+          "matchType": "exact"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "剁椒鱼头（草鱼头版）.png",
+      "sourcePath": "images/剁椒鱼头（草鱼头版）.png",
+      "url": "/images/%E5%89%81%E6%A4%92%E9%B1%BC%E5%A4%B4%EF%BC%88%E8%8D%89%E9%B1%BC%E5%A4%B4%E7%89%88%EF%BC%89.png",
+      "extension": "png",
+      "bytes": 47323,
+      "width": 192,
+      "height": 154,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/剁椒鱼头",
+          "matchType": "markdown-reference"
+        },
+        {
+          "recipeId": "蒸菜/剁椒鱼头（草鱼头版）",
+          "matchType": "exact"
+        }
+      ],
+      "referenceCount": 2
+    },
+    {
+      "fileName": "番茄鸡蛋面.jpg",
+      "sourcePath": "images/番茄鸡蛋面.jpg",
+      "url": "/images/%E7%95%AA%E8%8C%84%E9%B8%A1%E8%9B%8B%E9%9D%A2.jpg",
+      "extension": "jpg",
+      "bytes": 8005,
+      "width": 222,
+      "height": 162,
+      "referencedBy": [
+        {
+          "recipeId": "主食/番茄鸡蛋面",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "饭团.png",
+      "sourcePath": "images/饭团.png",
+      "url": "/images/%E9%A5%AD%E5%9B%A2.png",
+      "extension": "png",
+      "bytes": 17596,
+      "width": 141,
+      "height": 99,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/饭团",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "饭团2.png",
+      "sourcePath": "images/饭团2.png",
+      "url": "/images/%E9%A5%AD%E5%9B%A22.png",
+      "extension": "png",
+      "bytes": 20123,
+      "width": 167,
+      "height": 81,
+      "referencedBy": [],
+      "referenceCount": 0
+    },
+    {
+      "fileName": "饭团3.png",
+      "sourcePath": "images/饭团3.png",
+      "url": "/images/%E9%A5%AD%E5%9B%A23.png",
+      "extension": "png",
+      "bytes": 14785,
+      "width": 138,
+      "height": 76,
+      "referencedBy": [],
+      "referenceCount": 0
+    },
+    {
+      "fileName": "肥肠鸡.jpg",
+      "sourcePath": "images/肥肠鸡.jpg",
+      "url": "/images/%E8%82%A5%E8%82%A0%E9%B8%A1.jpg",
+      "extension": "jpg",
+      "bytes": 10359,
+      "width": 211,
+      "height": 171,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/肥肠鸡",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "肥西老母鸡汤.png",
+      "sourcePath": "images/肥西老母鸡汤.png",
+      "url": "/images/%E8%82%A5%E8%A5%BF%E8%80%81%E6%AF%8D%E9%B8%A1%E6%B1%A4.png",
+      "extension": "png",
+      "bytes": 47694,
+      "width": 179,
+      "height": 169,
+      "referencedBy": [
+        {
+          "recipeId": "汤/肥西老母鸡汤（单品）",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "肥西老母鸡汤面.png",
+      "sourcePath": "images/肥西老母鸡汤面.png",
+      "url": "/images/%E8%82%A5%E8%A5%BF%E8%80%81%E6%AF%8D%E9%B8%A1%E6%B1%A4%E9%9D%A2.png",
+      "extension": "png",
+      "bytes": 48092,
+      "width": 209,
+      "height": 166,
+      "referencedBy": [
+        {
+          "recipeId": "主食/肥西老母鸡汤面",
+          "matchType": "markdown-reference"
+        },
+        {
+          "recipeId": "主食/老母鸡汤面",
+          "matchType": "containment"
+        }
+      ],
+      "referenceCount": 2
+    },
+    {
+      "fileName": "粉蒸肉.png",
+      "sourcePath": "images/粉蒸肉.png",
+      "url": "/images/%E7%B2%89%E8%92%B8%E8%82%89.png",
+      "extension": "png",
+      "bytes": 48209,
+      "width": 213,
+      "height": 154,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/粉蒸肉",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "风干牛肉蒸白干.jpg",
+      "sourcePath": "images/风干牛肉蒸白干.jpg",
+      "url": "/images/%E9%A3%8E%E5%B9%B2%E7%89%9B%E8%82%89%E8%92%B8%E7%99%BD%E5%B9%B2.jpg",
+      "extension": "jpg",
+      "bytes": 6333,
+      "width": 185,
+      "height": 152,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/风干牛肉蒸白干",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "凤凰蛋(活珠子).jpg",
+      "sourcePath": "images/凤凰蛋(活珠子).jpg",
+      "url": "/images/%E5%87%A4%E5%87%B0%E8%9B%8B(%E6%B4%BB%E7%8F%A0%E5%AD%90).jpg",
+      "extension": "jpg",
+      "bytes": 25666,
+      "width": 972,
+      "height": 689,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/活珠子",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "凤爪蒸豆米.png",
+      "sourcePath": "images/凤爪蒸豆米.png",
+      "url": "/images/%E5%87%A4%E7%88%AA%E8%92%B8%E8%B1%86%E7%B1%B3.png",
+      "extension": "png",
+      "bytes": 55935,
+      "width": 201,
+      "height": 151,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/凤爪蒸豆米",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "宫保鸡丁.png",
+      "sourcePath": "images/宫保鸡丁.png",
+      "url": "/images/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81.png",
+      "extension": "png",
+      "bytes": 37238,
+      "width": 186,
+      "height": 155,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/宫保鸡丁",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "贵州风味辣子鸡.png",
+      "sourcePath": "images/贵州风味辣子鸡.png",
+      "url": "/images/%E8%B4%B5%E5%B7%9E%E9%A3%8E%E5%91%B3%E8%BE%A3%E5%AD%90%E9%B8%A1.png",
+      "extension": "png",
+      "bytes": 46639,
+      "width": 218,
+      "height": 158,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/贵州风味辣子鸡",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "嗨嗨锅（番茄肥牛锅）.png",
+      "sourcePath": "images/嗨嗨锅（番茄肥牛锅）.png",
+      "url": "/images/%E5%97%A8%E5%97%A8%E9%94%85%EF%BC%88%E7%95%AA%E8%8C%84%E8%82%A5%E7%89%9B%E9%94%85%EF%BC%89.png",
+      "extension": "png",
+      "bytes": 61088,
+      "width": 179,
+      "height": 160,
+      "referencedBy": [
+        {
+          "recipeId": "煮锅/嗨嗨锅（番茄肥牛锅）",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "嗨嗨锅（泡椒鸡米花米线）.png",
+      "sourcePath": "images/嗨嗨锅（泡椒鸡米花米线）.png",
+      "url": "/images/%E5%97%A8%E5%97%A8%E9%94%85%EF%BC%88%E6%B3%A1%E6%A4%92%E9%B8%A1%E7%B1%B3%E8%8A%B1%E7%B1%B3%E7%BA%BF%EF%BC%89.png",
+      "extension": "png",
+      "bytes": 64014,
+      "width": 176,
+      "height": 153,
+      "referencedBy": [
+        {
+          "recipeId": "煮锅/嗨嗨锅（泡椒鸡米花米线）",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "嗨嗨锅（酸菜鱼米线）.png",
+      "sourcePath": "images/嗨嗨锅（酸菜鱼米线）.png",
+      "url": "/images/%E5%97%A8%E5%97%A8%E9%94%85%EF%BC%88%E9%85%B8%E8%8F%9C%E9%B1%BC%E7%B1%B3%E7%BA%BF%EF%BC%89.png",
+      "extension": "png",
+      "bytes": 62048,
+      "width": 213,
+      "height": 164,
+      "referencedBy": [
+        {
+          "recipeId": "煮锅/嗨嗨锅（酸菜鱼米线）",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "嗨嗨锅（鲜蔬锅）.png",
+      "sourcePath": "images/嗨嗨锅（鲜蔬锅）.png",
+      "url": "/images/%E5%97%A8%E5%97%A8%E9%94%85%EF%BC%88%E9%B2%9C%E8%94%AC%E9%94%85%EF%BC%89.png",
+      "extension": "png",
+      "bytes": 64322,
+      "width": 195,
+      "height": 167,
+      "referencedBy": [
+        {
+          "recipeId": "煮锅/嗨嗨锅（鲜蔬锅）",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "嗨嗨桶（红油串串）.png",
+      "sourcePath": "images/嗨嗨桶（红油串串）.png",
+      "url": "/images/%E5%97%A8%E5%97%A8%E6%A1%B6%EF%BC%88%E7%BA%A2%E6%B2%B9%E4%B8%B2%E4%B8%B2%EF%BC%89.png",
+      "extension": "png",
+      "bytes": 33123,
+      "width": 113,
+      "height": 162,
+      "referencedBy": [
+        {
+          "recipeId": "卤菜/嗨嗨桶（红油串串）",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "嗨嗨桶（炸物桶）.png",
+      "sourcePath": "images/嗨嗨桶（炸物桶）.png",
+      "url": "/images/%E5%97%A8%E5%97%A8%E6%A1%B6%EF%BC%88%E7%82%B8%E7%89%A9%E6%A1%B6%EF%BC%89.png",
+      "extension": "png",
+      "bytes": 36188,
+      "width": 151,
+      "height": 174,
+      "referencedBy": [
+        {
+          "recipeId": "炸品/嗨嗨桶（炸物桶）",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "红烧茄子.jpg",
+      "sourcePath": "images/红烧茄子.jpg",
+      "url": "/images/%E7%BA%A2%E7%83%A7%E8%8C%84%E5%AD%90.jpg",
+      "extension": "jpg",
+      "bytes": 7009,
+      "width": 214,
+      "height": 152,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/红烧茄子",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "红烧鱼块.png",
+      "sourcePath": "images/红烧鱼块.png",
+      "url": "/images/%E7%BA%A2%E7%83%A7%E9%B1%BC%E5%9D%97.png",
+      "extension": "png",
+      "bytes": 46168,
+      "width": 201,
+      "height": 161,
+      "referencedBy": [
+        {
+          "recipeId": "炖菜/红烧鱼块",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "胡萝卜炒鸡蛋.jpg",
+      "sourcePath": "images/胡萝卜炒鸡蛋.jpg",
+      "url": "/images/%E8%83%A1%E8%90%9D%E5%8D%9C%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+      "extension": "jpg",
+      "bytes": 5827,
+      "width": 224,
+      "height": 160,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/胡萝卜炒鸡蛋",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "胡萝卜炒木耳.jpg",
+      "sourcePath": "images/胡萝卜炒木耳.jpg",
+      "url": "/images/%E8%83%A1%E8%90%9D%E5%8D%9C%E7%82%92%E6%9C%A8%E8%80%B3.jpg",
+      "extension": "jpg",
+      "bytes": 4890,
+      "width": 199,
+      "height": 157,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/胡萝卜炒木耳",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "胡萝卜炒肉片.jpg",
+      "sourcePath": "images/胡萝卜炒肉片.jpg",
+      "url": "/images/%E8%83%A1%E8%90%9D%E5%8D%9C%E7%82%92%E8%82%89%E7%89%87.jpg",
+      "extension": "jpg",
+      "bytes": 5877,
+      "width": 186,
+      "height": 147,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/胡萝卜炒肉片",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "胡萝卜牛肉.png",
+      "sourcePath": "images/胡萝卜牛肉.png",
+      "url": "/images/%E8%83%A1%E8%90%9D%E5%8D%9C%E7%89%9B%E8%82%89.png",
+      "extension": "png",
+      "bytes": 57112,
+      "width": 197,
+      "height": 165,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/胡萝卜牛肉",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "花卷.png",
+      "sourcePath": "images/花卷.png",
+      "url": "/images/%E8%8A%B1%E5%8D%B7.png",
+      "extension": "png",
+      "bytes": 40674,
+      "width": 169,
+      "height": 159,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/花卷",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "鸡笼香柠檬茶.png",
+      "sourcePath": "images/鸡笼香柠檬茶.png",
+      "url": "/images/%E9%B8%A1%E7%AC%BC%E9%A6%99%E6%9F%A0%E6%AA%AC%E8%8C%B6.png",
+      "extension": "png",
+      "bytes": 36680,
+      "width": 172,
+      "height": 167,
+      "referencedBy": [
+        {
+          "recipeId": "饮品/鸡笼香柠檬茶",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "鸡肉洋葱圈.png",
+      "sourcePath": "images/鸡肉洋葱圈.png",
+      "url": "/images/%E9%B8%A1%E8%82%89%E6%B4%8B%E8%91%B1%E5%9C%88.png",
+      "extension": "png",
+      "bytes": 44253,
+      "width": 187,
+      "height": 162,
+      "referencedBy": [
+        {
+          "recipeId": "炸品/鸡肉洋葱圈",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "鸡汤娃娃菜.jpg",
+      "sourcePath": "images/鸡汤娃娃菜.jpg",
+      "url": "/images/%E9%B8%A1%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.jpg",
+      "extension": "jpg",
+      "bytes": 4716,
+      "width": 175,
+      "height": 154,
+      "referencedBy": [
+        {
+          "recipeId": "烫菜/鸡汤娃娃菜",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "鸡血汤.png",
+      "sourcePath": "images/鸡血汤.png",
+      "url": "/images/%E9%B8%A1%E8%A1%80%E6%B1%A4.png",
+      "extension": "png",
+      "bytes": 29632,
+      "width": 179,
+      "height": 154,
+      "referencedBy": [
+        {
+          "recipeId": "炖菜/鸡血汤",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "鸡汁辣糊汤.png",
+      "sourcePath": "images/鸡汁辣糊汤.png",
+      "url": "/images/%E9%B8%A1%E6%B1%81%E8%BE%A3%E7%B3%8A%E6%B1%A4.png",
+      "extension": "png",
+      "bytes": 36051,
+      "width": 178,
+      "height": 157,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/鸡汁辣糊汤",
+          "matchType": "exact"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "鸡汁辣鱼.png",
+      "sourcePath": "images/鸡汁辣鱼.png",
+      "url": "/images/%E9%B8%A1%E6%B1%81%E8%BE%A3%E9%B1%BC.png",
+      "extension": "png",
+      "bytes": 58982,
+      "width": 186,
+      "height": 156,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/鸡汁辣鱼",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "鸡汁汤包.png",
+      "sourcePath": "images/鸡汁汤包.png",
+      "url": "/images/%E9%B8%A1%E6%B1%81%E6%B1%A4%E5%8C%85.png",
+      "extension": "png",
+      "bytes": 48895,
+      "width": 187,
+      "height": 145,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/鸡汁汤包",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "荠菜鲜肉蒸饺.png",
+      "sourcePath": "images/荠菜鲜肉蒸饺.png",
+      "url": "/images/%E8%8D%A0%E8%8F%9C%E9%B2%9C%E8%82%89%E8%92%B8%E9%A5%BA.png",
+      "extension": "png",
+      "bytes": 50797,
+      "width": 164,
+      "height": 147,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/荠菜鲜肉蒸饺",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "家常土豆片.jpg",
+      "sourcePath": "images/家常土豆片.jpg",
+      "url": "/images/%E5%AE%B6%E5%B8%B8%E5%9C%9F%E8%B1%86%E7%89%87.jpg",
+      "extension": "jpg",
+      "bytes": 4611,
+      "width": 196,
+      "height": 152,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/家常土豆片",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "家常小炒.jpg",
+      "sourcePath": "images/家常小炒.jpg",
+      "url": "/images/%E5%AE%B6%E5%B8%B8%E5%B0%8F%E7%82%92.jpg",
+      "extension": "jpg",
+      "bytes": 6370,
+      "width": 204,
+      "height": 158,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/家常小炒",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "酱椒蒜香片片鱼.png",
+      "sourcePath": "images/酱椒蒜香片片鱼.png",
+      "url": "/images/%E9%85%B1%E6%A4%92%E8%92%9C%E9%A6%99%E7%89%87%E7%89%87%E9%B1%BC.png",
+      "extension": "png",
+      "bytes": 45484,
+      "width": 177,
+      "height": 160,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/酱椒蒜香片片鱼",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "酱香小河虾.jpg",
+      "sourcePath": "images/酱香小河虾.jpg",
+      "url": "/images/%E9%85%B1%E9%A6%99%E5%B0%8F%E6%B2%B3%E8%99%BE.jpg",
+      "extension": "jpg",
+      "bytes": 6000,
+      "width": 182,
+      "height": 148,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/酱香小河虾",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "酱蒸白干.png",
+      "sourcePath": "images/酱蒸白干.png",
+      "url": "/images/%E9%85%B1%E8%92%B8%E7%99%BD%E5%B9%B2.png",
+      "extension": "png",
+      "bytes": 38435,
+      "width": 256,
+      "height": 172,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/酱蒸白干",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "酱蒸豆腐.jpg",
+      "sourcePath": "images/酱蒸豆腐.jpg",
+      "url": "/images/%E9%85%B1%E8%92%B8%E8%B1%86%E8%85%90.jpg",
+      "extension": "jpg",
+      "bytes": 5984,
+      "width": 192,
+      "height": 162,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/酱蒸豆腐",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "浇汁西兰花.jpg",
+      "sourcePath": "images/浇汁西兰花.jpg",
+      "url": "/images/%E6%B5%87%E6%B1%81%E8%A5%BF%E5%85%B0%E8%8A%B1.jpg",
+      "extension": "jpg",
+      "bytes": 7901,
+      "width": 243,
+      "height": 162,
+      "referencedBy": [
+        {
+          "recipeId": "烫菜/浇汁西兰花",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "金汤酸菜鱼.png",
+      "sourcePath": "images/金汤酸菜鱼.png",
+      "url": "/images/%E9%87%91%E6%B1%A4%E9%85%B8%E8%8F%9C%E9%B1%BC.png",
+      "extension": "png",
+      "bytes": 52050,
+      "width": 182,
+      "height": 163,
+      "referencedBy": [
+        {
+          "recipeId": "煮锅/金汤酸菜鱼",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "金汤酸菜鱼（大份）.png",
+      "sourcePath": "images/金汤酸菜鱼（大份）.png",
+      "url": "/images/%E9%87%91%E6%B1%A4%E9%85%B8%E8%8F%9C%E9%B1%BC%EF%BC%88%E5%A4%A7%E4%BB%BD%EF%BC%89.png",
+      "extension": "png",
+      "bytes": 55261,
+      "width": 205,
+      "height": 173,
+      "referencedBy": [
+        {
+          "recipeId": "煮锅/金汤酸菜鱼（大份）",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "烤肠.png",
+      "sourcePath": "images/烤肠.png",
+      "url": "/images/%E7%83%A4%E8%82%A0.png",
+      "extension": "png",
+      "bytes": 24646,
+      "width": 165,
+      "height": 110,
+      "referencedBy": [
+        {
+          "recipeId": "烤类/烤肠",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "口水鸡.png",
+      "sourcePath": "images/口水鸡.png",
+      "url": "/images/%E5%8F%A3%E6%B0%B4%E9%B8%A1.png",
+      "extension": "png",
+      "bytes": 37295,
+      "width": 202,
+      "height": 162,
+      "referencedBy": [
+        {
+          "recipeId": "凉拌/口水鸡",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "老鸡扬米面.png",
+      "sourcePath": "images/老鸡扬米面.png",
+      "url": "/images/%E8%80%81%E9%B8%A1%E6%89%AC%E7%B1%B3%E9%9D%A2.png",
+      "extension": "png",
+      "bytes": 44574,
+      "width": 190,
+      "height": 153,
+      "referencedBy": [
+        {
+          "recipeId": "主食/老鸡扬米面",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "老面小笼包.png",
+      "sourcePath": "images/老面小笼包.png",
+      "url": "/images/%E8%80%81%E9%9D%A2%E5%B0%8F%E7%AC%BC%E5%8C%85.png",
+      "extension": "png",
+      "bytes": 50945,
+      "width": 171,
+      "height": 160,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/老面小笼包",
+          "matchType": "exact"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "凉拌莴笋丝.jpg",
+      "sourcePath": "images/凉拌莴笋丝.jpg",
+      "url": "/images/%E5%87%89%E6%8B%8C%E8%8E%B4%E7%AC%8B%E4%B8%9D.jpg",
+      "extension": "jpg",
+      "bytes": 3883,
+      "width": 184,
+      "height": 153,
+      "referencedBy": [
+        {
+          "recipeId": "凉拌/凉拌莴笋丝",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "卤翅根.png",
+      "sourcePath": "images/卤翅根.png",
+      "url": "/images/%E5%8D%A4%E7%BF%85%E6%A0%B9.png",
+      "extension": "png",
+      "bytes": 43147,
+      "width": 185,
+      "height": 166,
+      "referencedBy": [
+        {
+          "recipeId": "卤菜/卤翅根",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "卤大排.png",
+      "sourcePath": "images/卤大排.png",
+      "url": "/images/%E5%8D%A4%E5%A4%A7%E6%8E%92.png",
+      "extension": "png",
+      "bytes": 57583,
+      "width": 232,
+      "height": 169,
+      "referencedBy": [
+        {
+          "recipeId": "卤菜/卤大排",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "卤方干.png",
+      "sourcePath": "images/卤方干.png",
+      "url": "/images/%E5%8D%A4%E6%96%B9%E5%B9%B2.png",
+      "extension": "png",
+      "bytes": 46227,
+      "width": 194,
+      "height": 149,
+      "referencedBy": [
+        {
+          "recipeId": "卤菜/卤方干",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "卤鸡腿.png",
+      "sourcePath": "images/卤鸡腿.png",
+      "url": "/images/%E5%8D%A4%E9%B8%A1%E8%85%BF.png",
+      "extension": "png",
+      "bytes": 33214,
+      "width": 186,
+      "height": 161,
+      "referencedBy": [
+        {
+          "recipeId": "卤菜/卤鸡腿",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "卤鸡爪.png",
+      "sourcePath": "images/卤鸡爪.png",
+      "url": "/images/%E5%8D%A4%E9%B8%A1%E7%88%AA.png",
+      "extension": "png",
+      "bytes": 49186,
+      "width": 217,
+      "height": 147,
+      "referencedBy": [
+        {
+          "recipeId": "卤菜/卤鸡爪",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "麻辣鸡块.jpg",
+      "sourcePath": "images/麻辣鸡块.jpg",
+      "url": "/images/%E9%BA%BB%E8%BE%A3%E9%B8%A1%E5%9D%97.jpg",
+      "extension": "jpg",
+      "bytes": 6992,
+      "width": 177,
+      "height": 174,
+      "referencedBy": [
+        {
+          "recipeId": "烫菜/麻辣鸡块",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "麻婆豆腐.jpg",
+      "sourcePath": "images/麻婆豆腐.jpg",
+      "url": "/images/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90.jpg",
+      "extension": "jpg",
+      "bytes": 10044,
+      "width": 238,
+      "height": 171,
+      "referencedBy": [
+        {
+          "recipeId": "炖菜/麻婆豆腐",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "馒头.png",
+      "sourcePath": "images/馒头.png",
+      "url": "/images/%E9%A6%92%E5%A4%B4.png",
+      "extension": "png",
+      "bytes": 13982,
+      "width": 105,
+      "height": 85,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/馒头",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "馒头2.png",
+      "sourcePath": "images/馒头2.png",
+      "url": "/images/%E9%A6%92%E5%A4%B42.png",
+      "extension": "png",
+      "bytes": 16528,
+      "width": 84,
+      "height": 92,
+      "referencedBy": [],
+      "referenceCount": 0
+    },
+    {
+      "fileName": "馒头3.png",
+      "sourcePath": "images/馒头3.png",
+      "url": "/images/%E9%A6%92%E5%A4%B43.png",
+      "extension": "png",
+      "bytes": 12189,
+      "width": 95,
+      "height": 76,
+      "referencedBy": [],
+      "referenceCount": 0
+    },
+    {
+      "fileName": "馒头4.png",
+      "sourcePath": "images/馒头4.png",
+      "url": "/images/%E9%A6%92%E5%A4%B44.png",
+      "extension": "png",
+      "bytes": 14853,
+      "width": 81,
+      "height": 75,
+      "referencedBy": [],
+      "referenceCount": 0
+    },
+    {
+      "fileName": "馒头5.png",
+      "sourcePath": "images/馒头5.png",
+      "url": "/images/%E9%A6%92%E5%A4%B45.png",
+      "extension": "png",
+      "bytes": 15863,
+      "width": 91,
+      "height": 75,
+      "referencedBy": [],
+      "referenceCount": 0
+    },
+    {
+      "fileName": "毛豆烧土鸡.png",
+      "sourcePath": "images/毛豆烧土鸡.png",
+      "url": "/images/%E6%AF%9B%E8%B1%86%E7%83%A7%E5%9C%9F%E9%B8%A1.png",
+      "extension": "png",
+      "bytes": 46009,
+      "width": 204,
+      "height": 151,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/毛豆烧土鸡",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "冒烤鸭.png",
+      "sourcePath": "images/冒烤鸭.png",
+      "url": "/images/%E5%86%92%E7%83%A4%E9%B8%AD.png",
+      "extension": "png",
+      "bytes": 67371,
+      "width": 227,
+      "height": 164,
+      "referencedBy": [
+        {
+          "recipeId": "煮锅/冒烤鸭",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "梅菜扣肉.png",
+      "sourcePath": "images/梅菜扣肉.png",
+      "url": "/images/%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89.png",
+      "extension": "png",
+      "bytes": 34148,
+      "width": 182,
+      "height": 159,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/梅菜扣肉",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "梅干菜凤爪翅.jpg",
+      "sourcePath": "images/梅干菜凤爪翅.jpg",
+      "url": "/images/%E6%A2%85%E5%B9%B2%E8%8F%9C%E5%87%A4%E7%88%AA%E7%BF%85.jpg",
+      "extension": "jpg",
+      "bytes": 6766,
+      "width": 219,
+      "height": 149,
+      "referencedBy": [
+        {
+          "recipeId": "炖菜/梅干菜凤爪翅",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "米饭.png",
+      "sourcePath": "images/米饭.png",
+      "url": "/images/%E7%B1%B3%E9%A5%AD.png",
+      "extension": "png",
+      "bytes": 33185,
+      "width": 216,
+      "height": 167,
+      "referencedBy": [
+        {
+          "recipeId": "主食/米饭",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "秘汁卤肉饭.png",
+      "sourcePath": "images/秘汁卤肉饭.png",
+      "url": "/images/%E7%A7%98%E6%B1%81%E5%8D%A4%E8%82%89%E9%A5%AD.png",
+      "extension": "png",
+      "bytes": 70218,
+      "width": 187,
+      "height": 160,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/秘汁卤肉饭",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "蜜汁南瓜.jpg",
+      "sourcePath": "images/蜜汁南瓜.jpg",
+      "url": "/images/%E8%9C%9C%E6%B1%81%E5%8D%97%E7%93%9C.jpg",
+      "extension": "jpg",
+      "bytes": 3628,
+      "width": 154,
+      "height": 119,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/蜜汁南瓜",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "奶黄鸡包.png",
+      "sourcePath": "images/奶黄鸡包.png",
+      "url": "/images/%E5%A5%B6%E9%BB%84%E9%B8%A1%E5%8C%85.png",
+      "extension": "png",
+      "bytes": 55615,
+      "width": 180,
+      "height": 153,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/奶黄鸡包",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "柠檬凤爪.jpg",
+      "sourcePath": "images/柠檬凤爪.jpg",
+      "url": "/images/%E6%9F%A0%E6%AA%AC%E5%87%A4%E7%88%AA.jpg",
+      "extension": "jpg",
+      "bytes": 5322,
+      "width": 215,
+      "height": 167,
+      "referencedBy": [
+        {
+          "recipeId": "凉拌/柠檬凤爪",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "牛肉盒.png",
+      "sourcePath": "images/牛肉盒.png",
+      "url": "/images/%E7%89%9B%E8%82%89%E7%9B%92.png",
+      "extension": "png",
+      "bytes": 34118,
+      "width": 215,
+      "height": 146,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/牛肉盒",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "农家小炒肉(鸡蛋干版本).png",
+      "sourcePath": "images/农家小炒肉(鸡蛋干版本).png",
+      "url": "/images/%E5%86%9C%E5%AE%B6%E5%B0%8F%E7%82%92%E8%82%89(%E9%B8%A1%E8%9B%8B%E5%B9%B2%E7%89%88%E6%9C%AC).png",
+      "extension": "png",
+      "bytes": 54888,
+      "width": 221,
+      "height": 163,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/农家小炒肉（鸡蛋干）",
+          "matchType": "markdown-reference"
+        },
+        {
+          "recipeId": "炒菜/农家小炒肉（鸡蛋干版本）",
+          "matchType": "exact"
+        }
+      ],
+      "referenceCount": 2
+    },
+    {
+      "fileName": "农家小炒肉（玉耳版本）.png",
+      "sourcePath": "images/农家小炒肉（玉耳版本）.png",
+      "url": "/images/%E5%86%9C%E5%AE%B6%E5%B0%8F%E7%82%92%E8%82%89%EF%BC%88%E7%8E%89%E8%80%B3%E7%89%88%E6%9C%AC%EF%BC%89.png",
+      "extension": "png",
+      "bytes": 43121,
+      "width": 196,
+      "height": 146,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/农家小炒肉（玉耳）",
+          "matchType": "markdown-reference"
+        },
+        {
+          "recipeId": "炒菜/农家小炒肉（玉耳版本）",
+          "matchType": "exact"
+        }
+      ],
+      "referenceCount": 2
+    },
+    {
+      "fileName": "农家蒸蛋.jpg",
+      "sourcePath": "images/农家蒸蛋.jpg",
+      "url": "/images/%E5%86%9C%E5%AE%B6%E8%92%B8%E8%9B%8B.jpg",
+      "extension": "jpg",
+      "bytes": 10653,
+      "width": 386,
+      "height": 293,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/农家蒸蛋",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "浓香整块鸡汤面.png",
+      "sourcePath": "images/浓香整块鸡汤面.png",
+      "url": "/images/%E6%B5%93%E9%A6%99%E6%95%B4%E5%9D%97%E9%B8%A1%E6%B1%A4%E9%9D%A2.png",
+      "extension": "png",
+      "bytes": 55301,
+      "width": 233,
+      "height": 166,
+      "referencedBy": [
+        {
+          "recipeId": "主食/浓香整块鸡汤面",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "苹果山楂红茶.png",
+      "sourcePath": "images/苹果山楂红茶.png",
+      "url": "/images/%E8%8B%B9%E6%9E%9C%E5%B1%B1%E6%A5%82%E7%BA%A2%E8%8C%B6.png",
+      "extension": "png",
+      "bytes": 41365,
+      "width": 146,
+      "height": 173,
+      "referencedBy": [
+        {
+          "recipeId": "饮品/苹果山楂红茶",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "芹菜炒香干.jpg",
+      "sourcePath": "images/芹菜炒香干.jpg",
+      "url": "/images/%E8%8A%B9%E8%8F%9C%E7%82%92%E9%A6%99%E5%B9%B2.jpg",
+      "extension": "jpg",
+      "bytes": 5129,
+      "width": 183,
+      "height": 152,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/芹菜炒香干",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "芹菜香干炒肉丝.jpg",
+      "sourcePath": "images/芹菜香干炒肉丝.jpg",
+      "url": "/images/%E8%8A%B9%E8%8F%9C%E9%A6%99%E5%B9%B2%E7%82%92%E8%82%89%E4%B8%9D.jpg",
+      "extension": "jpg",
+      "bytes": 7614,
+      "width": 232,
+      "height": 175,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/芹菜香干炒肉丝",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "青椒炒豆芽.jpg",
+      "sourcePath": "images/青椒炒豆芽.jpg",
+      "url": "/images/%E9%9D%92%E6%A4%92%E7%82%92%E8%B1%86%E8%8A%BD.jpg",
+      "extension": "jpg",
+      "bytes": 4223,
+      "width": 175,
+      "height": 158,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/青椒炒豆芽",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "青椒炒鸡蛋.jpg",
+      "sourcePath": "images/青椒炒鸡蛋.jpg",
+      "url": "/images/%E9%9D%92%E6%A4%92%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+      "extension": "jpg",
+      "bytes": 4041,
+      "width": 160,
+      "height": 150,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/青椒炒鸡蛋",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "清炒菜心.jpg",
+      "sourcePath": "images/清炒菜心.jpg",
+      "url": "/images/%E6%B8%85%E7%82%92%E8%8F%9C%E5%BF%83.jpg",
+      "extension": "jpg",
+      "bytes": 5966,
+      "width": 197,
+      "height": 152,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/清炒菜心",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "清炒春菜.jpg",
+      "sourcePath": "images/清炒春菜.jpg",
+      "url": "/images/%E6%B8%85%E7%82%92%E6%98%A5%E8%8F%9C.jpg",
+      "extension": "jpg",
+      "bytes": 4644,
+      "width": 174,
+      "height": 130,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/清炒春菜",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "清炒毛白菜.jpg",
+      "sourcePath": "images/清炒毛白菜.jpg",
+      "url": "/images/%E6%B8%85%E7%82%92%E6%AF%9B%E7%99%BD%E8%8F%9C.jpg",
+      "extension": "jpg",
+      "bytes": 3805,
+      "width": 153,
+      "height": 144,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/清炒毛白菜",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "清炒青菜.jpg",
+      "sourcePath": "images/清炒青菜.jpg",
+      "url": "/images/%E6%B8%85%E7%82%92%E9%9D%92%E8%8F%9C.jpg",
+      "extension": "jpg",
+      "bytes": 6248,
+      "width": 182,
+      "height": 168,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/清炒青菜",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "清炒莴笋片.jpg",
+      "sourcePath": "images/清炒莴笋片.jpg",
+      "url": "/images/%E6%B8%85%E7%82%92%E8%8E%B4%E7%AC%8B%E7%89%87.jpg",
+      "extension": "jpg",
+      "bytes": 3683,
+      "width": 172,
+      "height": 150,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/清炒莴笋片",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "清炒西兰花.jpg",
+      "sourcePath": "images/清炒西兰花.jpg",
+      "url": "/images/%E6%B8%85%E7%82%92%E8%A5%BF%E5%85%B0%E8%8A%B1.jpg",
+      "extension": "jpg",
+      "bytes": 6252,
+      "width": 187,
+      "height": 159,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/清炒西兰花",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "清炒油麦菜.jpg",
+      "sourcePath": "images/清炒油麦菜.jpg",
+      "url": "/images/%E6%B8%85%E7%82%92%E6%B2%B9%E9%BA%A6%E8%8F%9C.jpg",
+      "extension": "jpg",
+      "bytes": 6172,
+      "width": 194,
+      "height": 140,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/清炒油麦菜",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "热奶茶.png",
+      "sourcePath": "images/热奶茶.png",
+      "url": "/images/%E7%83%AD%E5%A5%B6%E8%8C%B6.png",
+      "extension": "png",
+      "bytes": 34507,
+      "width": 188,
+      "height": 166,
+      "referencedBy": [
+        {
+          "recipeId": "饮品/热奶茶",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "肉饼蒸蛋.png",
+      "sourcePath": "images/肉饼蒸蛋.png",
+      "url": "/images/%E8%82%89%E9%A5%BC%E8%92%B8%E8%9B%8B.png",
+      "extension": "png",
+      "bytes": 52432,
+      "width": 221,
+      "height": 169,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/肉饼蒸蛋",
+          "matchType": "markdown-reference"
+        },
+        {
+          "recipeId": "蒸菜/肉饼蒸蛋（常规版）",
+          "matchType": "containment"
+        },
+        {
+          "recipeId": "蒸菜/肉饼蒸蛋（马蹄版）",
+          "matchType": "containment"
+        }
+      ],
+      "referenceCount": 3
+    },
+    {
+      "fileName": "三色虾仁.jpg",
+      "sourcePath": "images/三色虾仁.jpg",
+      "url": "/images/%E4%B8%89%E8%89%B2%E8%99%BE%E4%BB%81.jpg",
+      "extension": "jpg",
+      "bytes": 7572,
+      "width": 180,
+      "height": 157,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/三色虾仁",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "砂锅番茄米线.png",
+      "sourcePath": "images/砂锅番茄米线.png",
+      "url": "/images/%E7%A0%82%E9%94%85%E7%95%AA%E8%8C%84%E7%B1%B3%E7%BA%BF.png",
+      "extension": "png",
+      "bytes": 60433,
+      "width": 228,
+      "height": 159,
+      "referencedBy": [
+        {
+          "recipeId": "砂锅菜/砂锅番茄米线",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "砂锅腐竹.png",
+      "sourcePath": "images/砂锅腐竹.png",
+      "url": "/images/%E7%A0%82%E9%94%85%E8%85%90%E7%AB%B9.png",
+      "extension": "png",
+      "bytes": 48060,
+      "width": 256,
+      "height": 182,
+      "referencedBy": [
+        {
+          "recipeId": "砂锅菜/砂锅腐竹",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "砂锅荠菜鲜肉馄饨.png",
+      "sourcePath": "images/砂锅荠菜鲜肉馄饨.png",
+      "url": "/images/%E7%A0%82%E9%94%85%E8%8D%A0%E8%8F%9C%E9%B2%9C%E8%82%89%E9%A6%84%E9%A5%A8.png",
+      "extension": "png",
+      "bytes": 53561,
+      "width": 229,
+      "height": 154,
+      "referencedBy": [
+        {
+          "recipeId": "主食/砂锅荠菜鲜肉馄饨",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "砂锅木瓜.png",
+      "sourcePath": "images/砂锅木瓜.png",
+      "url": "/images/%E7%A0%82%E9%94%85%E6%9C%A8%E7%93%9C.png",
+      "extension": "png",
+      "bytes": 37403,
+      "width": 248,
+      "height": 163,
+      "referencedBy": [
+        {
+          "recipeId": "砂锅菜/砂锅木瓜",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "砂锅牛杂煲.png",
+      "sourcePath": "images/砂锅牛杂煲.png",
+      "url": "/images/%E7%A0%82%E9%94%85%E7%89%9B%E6%9D%82%E7%85%B2.png",
+      "extension": "png",
+      "bytes": 60729,
+      "width": 228,
+      "height": 158,
+      "referencedBy": [
+        {
+          "recipeId": "砂锅菜/砂锅牛杂煲",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "砂锅泡椒鸡米花米线.png",
+      "sourcePath": "images/砂锅泡椒鸡米花米线.png",
+      "url": "/images/%E7%A0%82%E9%94%85%E6%B3%A1%E6%A4%92%E9%B8%A1%E7%B1%B3%E8%8A%B1%E7%B1%B3%E7%BA%BF.png",
+      "extension": "png",
+      "bytes": 47595,
+      "width": 200,
+      "height": 133,
+      "referencedBy": [
+        {
+          "recipeId": "砂锅菜/砂锅泡椒鸡米花米线",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "砂锅三鲜豆腐.png",
+      "sourcePath": "images/砂锅三鲜豆腐.png",
+      "url": "/images/%E7%A0%82%E9%94%85%E4%B8%89%E9%B2%9C%E8%B1%86%E8%85%90.png",
+      "extension": "png",
+      "bytes": 38472,
+      "width": 169,
+      "height": 140,
+      "referencedBy": [
+        {
+          "recipeId": "砂锅菜/砂锅三鲜豆腐",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "砂锅酸菜鱼.png",
+      "sourcePath": "images/砂锅酸菜鱼.png",
+      "url": "/images/%E7%A0%82%E9%94%85%E9%85%B8%E8%8F%9C%E9%B1%BC.png",
+      "extension": "png",
+      "bytes": 49203,
+      "width": 206,
+      "height": 153,
+      "referencedBy": [
+        {
+          "recipeId": "砂锅菜/砂锅酸菜鱼",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "砂锅蒜蓉粉丝虾.png",
+      "sourcePath": "images/砂锅蒜蓉粉丝虾.png",
+      "url": "/images/%E7%A0%82%E9%94%85%E8%92%9C%E8%93%89%E7%B2%89%E4%B8%9D%E8%99%BE.png",
+      "extension": "png",
+      "bytes": 51523,
+      "width": 206,
+      "height": 160,
+      "referencedBy": [
+        {
+          "recipeId": "砂锅菜/砂锅蒜蓉粉丝虾",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "砂锅盐焗鸡.png",
+      "sourcePath": "images/砂锅盐焗鸡.png",
+      "url": "/images/%E7%A0%82%E9%94%85%E7%9B%90%E7%84%97%E9%B8%A1.png",
+      "extension": "png",
+      "bytes": 65041,
+      "width": 266,
+      "height": 171,
+      "referencedBy": [
+        {
+          "recipeId": "砂锅菜/砂锅盐焗鸡",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "砂锅原味鸡汤米线.png",
+      "sourcePath": "images/砂锅原味鸡汤米线.png",
+      "url": "/images/%E7%A0%82%E9%94%85%E5%8E%9F%E5%91%B3%E9%B8%A1%E6%B1%A4%E7%B1%B3%E7%BA%BF.png",
+      "extension": "png",
+      "bytes": 51157,
+      "width": 234,
+      "height": 144,
+      "referencedBy": [
+        {
+          "recipeId": "砂锅菜/砂锅原味鸡汤米线",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "什锦蛋炒饭.png",
+      "sourcePath": "images/什锦蛋炒饭.png",
+      "url": "/images/%E4%BB%80%E9%94%A6%E8%9B%8B%E7%82%92%E9%A5%AD.png",
+      "extension": "png",
+      "bytes": 61220,
+      "width": 228,
+      "height": 167,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/什锦蛋炒饭",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "生炒上海青.jpg",
+      "sourcePath": "images/生炒上海青.jpg",
+      "url": "/images/%E7%94%9F%E7%82%92%E4%B8%8A%E6%B5%B7%E9%9D%92.jpg",
+      "extension": "jpg",
+      "bytes": 5568,
+      "width": 199,
+      "height": 148,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/生炒上海青",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "生炸大鸡腿.png",
+      "sourcePath": "images/生炸大鸡腿.png",
+      "url": "/images/%E7%94%9F%E7%82%B8%E5%A4%A7%E9%B8%A1%E8%85%BF.png",
+      "extension": "png",
+      "bytes": 54541,
+      "width": 192,
+      "height": 126,
+      "referencedBy": [
+        {
+          "recipeId": "炸品/生炸大鸡腿",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "手工春卷.png",
+      "sourcePath": "images/手工春卷.png",
+      "url": "/images/%E6%89%8B%E5%B7%A5%E6%98%A5%E5%8D%B7.png",
+      "extension": "png",
+      "bytes": 24329,
+      "width": 185,
+      "height": 149,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/手工春卷",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "手工烧麦.png",
+      "sourcePath": "images/手工烧麦.png",
+      "url": "/images/%E6%89%8B%E5%B7%A5%E7%83%A7%E9%BA%A6.png",
+      "extension": "png",
+      "bytes": 42945,
+      "width": 211,
+      "height": 153,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/手工烧麦",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "手枪大鸡腿.jpg",
+      "sourcePath": "images/手枪大鸡腿.jpg",
+      "url": "/images/%E6%89%8B%E6%9E%AA%E5%A4%A7%E9%B8%A1%E8%85%BF.jpg",
+      "extension": "jpg",
+      "bytes": 69717,
+      "width": 1280,
+      "height": 853,
+      "referencedBy": [
+        {
+          "recipeId": "炸品/手枪大鸡腿",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "水煮蛋.png",
+      "sourcePath": "images/水煮蛋.png",
+      "url": "/images/%E6%B0%B4%E7%85%AE%E8%9B%8B.png",
+      "extension": "png",
+      "bytes": 25678,
+      "width": 181,
+      "height": 170,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/水煮蛋",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "松糕.png",
+      "sourcePath": "images/松糕.png",
+      "url": "/images/%E6%9D%BE%E7%B3%95.png",
+      "extension": "png",
+      "bytes": 52489,
+      "width": 170,
+      "height": 156,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/松糕",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "酥皮萝卜丝馅饼.png",
+      "sourcePath": "images/酥皮萝卜丝馅饼.png",
+      "url": "/images/%E9%85%A5%E7%9A%AE%E8%90%9D%E5%8D%9C%E4%B8%9D%E9%A6%85%E9%A5%BC.png",
+      "extension": "png",
+      "bytes": 38904,
+      "width": 217,
+      "height": 148,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/酥皮萝卜丝馅饼",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "素面.png",
+      "sourcePath": "images/素面.png",
+      "url": "/images/%E7%B4%A0%E9%9D%A2.png",
+      "extension": "png",
+      "bytes": 53794,
+      "width": 213,
+      "height": 170,
+      "referencedBy": [
+        {
+          "recipeId": "主食/素面",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "酸菜肥肠煲.png",
+      "sourcePath": "images/酸菜肥肠煲.png",
+      "url": "/images/%E9%85%B8%E8%8F%9C%E8%82%A5%E8%82%A0%E7%85%B2.png",
+      "extension": "png",
+      "bytes": 71949,
+      "width": 260,
+      "height": 168,
+      "referencedBy": [
+        {
+          "recipeId": "砂锅菜/酸菜肥肠煲",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "酸辣海带丝.jpg",
+      "sourcePath": "images/酸辣海带丝.jpg",
+      "url": "/images/%E9%85%B8%E8%BE%A3%E6%B5%B7%E5%B8%A6%E4%B8%9D.jpg",
+      "extension": "jpg",
+      "bytes": 5113,
+      "width": 163,
+      "height": 140,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/酸辣海带丝",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "酸辣土豆丝.jpg",
+      "sourcePath": "images/酸辣土豆丝.jpg",
+      "url": "/images/%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D.jpg",
+      "extension": "jpg",
+      "bytes": 5594,
+      "width": 185,
+      "height": 156,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/酸辣土豆丝",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "蒜泥菠菜.jpg",
+      "sourcePath": "images/蒜泥菠菜.jpg",
+      "url": "/images/%E8%92%9C%E6%B3%A5%E8%8F%A0%E8%8F%9C.jpg",
+      "extension": "jpg",
+      "bytes": 4537,
+      "width": 176,
+      "height": 148,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/蒜泥菠菜",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "蒜蓉粉丝虾.png",
+      "sourcePath": "images/蒜蓉粉丝虾.png",
+      "url": "/images/%E8%92%9C%E8%93%89%E7%B2%89%E4%B8%9D%E8%99%BE.png",
+      "extension": "png",
+      "bytes": 39427,
+      "width": 190,
+      "height": 153,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/蒜蓉粉丝虾",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "蒜蓉娃娃菜.jpg",
+      "sourcePath": "images/蒜蓉娃娃菜.jpg",
+      "url": "/images/%E8%92%9C%E8%93%89%E5%A8%83%E5%A8%83%E8%8F%9C.jpg",
+      "extension": "jpg",
+      "bytes": 3979,
+      "width": 169,
+      "height": 144,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/蒜蓉娃娃菜",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "笋子鸡丁盖饭.png",
+      "sourcePath": "images/笋子鸡丁盖饭.png",
+      "url": "/images/%E7%AC%8B%E5%AD%90%E9%B8%A1%E4%B8%81%E7%9B%96%E9%A5%AD.png",
+      "extension": "png",
+      "bytes": 51948,
+      "width": 170,
+      "height": 153,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/笋子鸡丁盖饭",
+          "matchType": "markdown-reference"
+        },
+        {
+          "recipeId": "主食/笋子鸡丁盖饭（包菜版）",
+          "matchType": "containment"
+        },
+        {
+          "recipeId": "主食/笋子鸡丁盖饭（菜苔版）",
+          "matchType": "containment"
+        }
+      ],
+      "referenceCount": 3
+    },
+    {
+      "fileName": "笋子烧肉.png",
+      "sourcePath": "images/笋子烧肉.png",
+      "url": "/images/%E7%AC%8B%E5%AD%90%E7%83%A7%E8%82%89.png",
+      "extension": "png",
+      "bytes": 46927,
+      "width": 202,
+      "height": 162,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/笋子烧肉",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "糖醋排骨.jpg",
+      "sourcePath": "images/糖醋排骨.jpg",
+      "url": "/images/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8.jpg",
+      "extension": "jpg",
+      "bytes": 6520,
+      "width": 200,
+      "height": 155,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/糖醋排骨",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "糖糕.png",
+      "sourcePath": "images/糖糕.png",
+      "url": "/images/%E7%B3%96%E7%B3%95.png",
+      "extension": "png",
+      "bytes": 31420,
+      "width": 172,
+      "height": 164,
+      "referencedBy": [
+        {
+          "recipeId": "炸品/糖糕（红糖馅）",
+          "matchType": "containment"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "特色鸡汤馄饨.png",
+      "sourcePath": "images/特色鸡汤馄饨.png",
+      "url": "/images/%E7%89%B9%E8%89%B2%E9%B8%A1%E6%B1%A4%E9%A6%84%E9%A5%A8.png",
+      "extension": "png",
+      "bytes": 51401,
+      "width": 173,
+      "height": 160,
+      "referencedBy": [
+        {
+          "recipeId": "主食/特色鸡汤馄饨",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "特色热干面.png",
+      "sourcePath": "images/特色热干面.png",
+      "url": "/images/%E7%89%B9%E8%89%B2%E7%83%AD%E5%B9%B2%E9%9D%A2.png",
+      "extension": "png",
+      "bytes": 71311,
+      "width": 204,
+      "height": 170,
+      "referencedBy": [
+        {
+          "recipeId": "烫菜/特色热干面",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "土豆牛腩.png",
+      "sourcePath": "images/土豆牛腩.png",
+      "url": "/images/%E5%9C%9F%E8%B1%86%E7%89%9B%E8%85%A9.png",
+      "extension": "png",
+      "bytes": 45935,
+      "width": 189,
+      "height": 156,
+      "referencedBy": [
+        {
+          "recipeId": "炖菜/土豆牛腩",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "外婆菜炒鸡蛋.png",
+      "sourcePath": "images/外婆菜炒鸡蛋.png",
+      "url": "/images/%E5%A4%96%E5%A9%86%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B.png",
+      "extension": "png",
+      "bytes": 57323,
+      "width": 194,
+      "height": 156,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/外婆菜炒鸡蛋",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "莴笋丝炒鸡蛋.jpg",
+      "sourcePath": "images/莴笋丝炒鸡蛋.jpg",
+      "url": "/images/%E8%8E%B4%E7%AC%8B%E4%B8%9D%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+      "extension": "jpg",
+      "bytes": 4270,
+      "width": 196,
+      "height": 163,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/莴笋丝炒鸡蛋",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "西红柿炒鸡蛋.jpg",
+      "sourcePath": "images/西红柿炒鸡蛋.jpg",
+      "url": "/images/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+      "extension": "jpg",
+      "bytes": 5004,
+      "width": 177,
+      "height": 129,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/西红柿炒鸡蛋",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "西芹花生米.jpg",
+      "sourcePath": "images/西芹花生米.jpg",
+      "url": "/images/%E8%A5%BF%E8%8A%B9%E8%8A%B1%E7%94%9F%E7%B1%B3.jpg",
+      "extension": "jpg",
+      "bytes": 4217,
+      "width": 195,
+      "height": 160,
+      "referencedBy": [
+        {
+          "recipeId": "凉拌/西芹花生米",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "虾仁蒸鸡蛋.jpg",
+      "sourcePath": "images/虾仁蒸鸡蛋.jpg",
+      "url": "/images/%E8%99%BE%E4%BB%81%E8%92%B8%E9%B8%A1%E8%9B%8B.jpg",
+      "extension": "jpg",
+      "bytes": 4192,
+      "width": 175,
+      "height": 153,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/虾仁蒸鸡蛋",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "现熬豆粥.png",
+      "sourcePath": "images/现熬豆粥.png",
+      "url": "/images/%E7%8E%B0%E7%86%AC%E8%B1%86%E7%B2%A5.png",
+      "extension": "png",
+      "bytes": 19494,
+      "width": 102,
+      "height": 88,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/现熬豆粥",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "现熬豆粥2.png",
+      "sourcePath": "images/现熬豆粥2.png",
+      "url": "/images/%E7%8E%B0%E7%86%AC%E8%B1%86%E7%B2%A52.png",
+      "extension": "png",
+      "bytes": 21466,
+      "width": 102,
+      "height": 87,
+      "referencedBy": [],
+      "referenceCount": 0
+    },
+    {
+      "fileName": "现炸大油条.png",
+      "sourcePath": "images/现炸大油条.png",
+      "url": "/images/%E7%8E%B0%E7%82%B8%E5%A4%A7%E6%B2%B9%E6%9D%A1.png",
+      "extension": "png",
+      "bytes": 44090,
+      "width": 195,
+      "height": 158,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/现炸大油条",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "香肠蒸豆米.png",
+      "sourcePath": "images/香肠蒸豆米.png",
+      "url": "/images/%E9%A6%99%E8%82%A0%E8%92%B8%E8%B1%86%E7%B1%B3.png",
+      "extension": "png",
+      "bytes": 54048,
+      "width": 169,
+      "height": 165,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/香肠蒸豆米",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "香椿炒鸡蛋.jpg",
+      "sourcePath": "images/香椿炒鸡蛋.jpg",
+      "url": "/images/%E9%A6%99%E6%A4%BF%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+      "extension": "jpg",
+      "bytes": 7492,
+      "width": 195,
+      "height": 161,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/香椿炒鸡蛋",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "香脆木耳.jpg",
+      "sourcePath": "images/香脆木耳.jpg",
+      "url": "/images/%E9%A6%99%E8%84%86%E6%9C%A8%E8%80%B3.jpg",
+      "extension": "jpg",
+      "bytes": 6343,
+      "width": 188,
+      "height": 155,
+      "referencedBy": [
+        {
+          "recipeId": "烫菜/香脆木耳",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "香脆薯饼.png",
+      "sourcePath": "images/香脆薯饼.png",
+      "url": "/images/%E9%A6%99%E8%84%86%E8%96%AF%E9%A5%BC.png",
+      "extension": "png",
+      "bytes": 39411,
+      "width": 194,
+      "height": 125,
+      "referencedBy": [
+        {
+          "recipeId": "炸品/香脆薯饼",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "香菇鸡汤面.png",
+      "sourcePath": "images/香菇鸡汤面.png",
+      "url": "/images/%E9%A6%99%E8%8F%87%E9%B8%A1%E6%B1%A4%E9%9D%A2.png",
+      "extension": "png",
+      "bytes": 35996,
+      "width": 179,
+      "height": 138,
+      "referencedBy": [
+        {
+          "recipeId": "主食/香菇鸡汤面",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "香辣鸡丁拌面.png",
+      "sourcePath": "images/香辣鸡丁拌面.png",
+      "url": "/images/%E9%A6%99%E8%BE%A3%E9%B8%A1%E4%B8%81%E6%8B%8C%E9%9D%A2.png",
+      "extension": "png",
+      "bytes": 48504,
+      "width": 227,
+      "height": 154,
+      "referencedBy": [
+        {
+          "recipeId": "主食/香辣鸡丁拌面",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "香辣鸡杂.jpg",
+      "sourcePath": "images/香辣鸡杂.jpg",
+      "url": "/images/%E9%A6%99%E8%BE%A3%E9%B8%A1%E6%9D%82.jpg",
+      "extension": "jpg",
+      "bytes": 7115,
+      "width": 179,
+      "height": 164,
+      "referencedBy": [
+        {
+          "recipeId": "炖菜/香辣鸡杂",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "香辣牛肉面.png",
+      "sourcePath": "images/香辣牛肉面.png",
+      "url": "/images/%E9%A6%99%E8%BE%A3%E7%89%9B%E8%82%89%E9%9D%A2.png",
+      "extension": "png",
+      "bytes": 49778,
+      "width": 180,
+      "height": 154,
+      "referencedBy": [
+        {
+          "recipeId": "主食/香辣牛肉面",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "香辣血旺.png",
+      "sourcePath": "images/香辣血旺.png",
+      "url": "/images/%E9%A6%99%E8%BE%A3%E8%A1%80%E6%97%BA.png",
+      "extension": "png",
+      "bytes": 45442,
+      "width": 175,
+      "height": 134,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/香辣血旺",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "香酥鸡米花.png",
+      "sourcePath": "images/香酥鸡米花.png",
+      "url": "/images/%E9%A6%99%E9%85%A5%E9%B8%A1%E7%B1%B3%E8%8A%B1.png",
+      "extension": "png",
+      "bytes": 50823,
+      "width": 186,
+      "height": 159,
+      "referencedBy": [
+        {
+          "recipeId": "炸品/香酥鸡米花",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "香酥牛肉饼.png",
+      "sourcePath": "images/香酥牛肉饼.png",
+      "url": "/images/%E9%A6%99%E9%85%A5%E7%89%9B%E8%82%89%E9%A5%BC.png",
+      "extension": "png",
+      "bytes": 33650,
+      "width": 187,
+      "height": 157,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/香酥牛肉饼",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "香芋地瓜丸.png",
+      "sourcePath": "images/香芋地瓜丸.png",
+      "url": "/images/%E9%A6%99%E8%8A%8B%E5%9C%B0%E7%93%9C%E4%B8%B8.png",
+      "extension": "png",
+      "bytes": 32728,
+      "width": 204,
+      "height": 189,
+      "referencedBy": [
+        {
+          "recipeId": "炸品/香芋地瓜丸",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "香芋蒸排骨.png",
+      "sourcePath": "images/香芋蒸排骨.png",
+      "url": "/images/%E9%A6%99%E8%8A%8B%E8%92%B8%E6%8E%92%E9%AA%A8.png",
+      "extension": "png",
+      "bytes": 42284,
+      "width": 194,
+      "height": 155,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/香芋蒸排骨",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "小炒河虾.png",
+      "sourcePath": "images/小炒河虾.png",
+      "url": "/images/%E5%B0%8F%E7%82%92%E6%B2%B3%E8%99%BE.png",
+      "extension": "png",
+      "bytes": 41841,
+      "width": 196,
+      "height": 157,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/小炒河虾",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "小炒花菜.jpg",
+      "sourcePath": "images/小炒花菜.jpg",
+      "url": "/images/%E5%B0%8F%E7%82%92%E8%8A%B1%E8%8F%9C.jpg",
+      "extension": "jpg",
+      "bytes": 5484,
+      "width": 192,
+      "height": 163,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/小炒花菜",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "小炒黄牛肉（青蒜段版）.png",
+      "sourcePath": "images/小炒黄牛肉（青蒜段版）.png",
+      "url": "/images/%E5%B0%8F%E7%82%92%E9%BB%84%E7%89%9B%E8%82%89%EF%BC%88%E9%9D%92%E8%92%9C%E6%AE%B5%E7%89%88%EF%BC%89.png",
+      "extension": "png",
+      "bytes": 47433,
+      "width": 189,
+      "height": 147,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/小炒黄牛肉",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "小炒黄牛肉（香芹段版）.jpg",
+      "sourcePath": "images/小炒黄牛肉（香芹段版）.jpg",
+      "url": "/images/%E5%B0%8F%E7%82%92%E9%BB%84%E7%89%9B%E8%82%89%EF%BC%88%E9%A6%99%E8%8A%B9%E6%AE%B5%E7%89%88%EF%BC%89.jpg",
+      "extension": "jpg",
+      "bytes": 87024,
+      "width": 1076,
+      "height": 863,
+      "referencedBy": [],
+      "referenceCount": 0
+    },
+    {
+      "fileName": "小炒鸡丁.jpg",
+      "sourcePath": "images/小炒鸡丁.jpg",
+      "url": "/images/%E5%B0%8F%E7%82%92%E9%B8%A1%E4%B8%81.jpg",
+      "extension": "jpg",
+      "bytes": 6696,
+      "width": 205,
+      "height": 154,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/小炒鸡丁",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "小炒面筋.png",
+      "sourcePath": "images/小炒面筋.png",
+      "url": "/images/%E5%B0%8F%E7%82%92%E9%9D%A2%E7%AD%8B.png",
+      "extension": "png",
+      "bytes": 53937,
+      "width": 224,
+      "height": 167,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/小炒面筋",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "小炒香干.jpg",
+      "sourcePath": "images/小炒香干.jpg",
+      "url": "/images/%E5%B0%8F%E7%82%92%E9%A6%99%E5%B9%B2.jpg",
+      "extension": "jpg",
+      "bytes": 5695,
+      "width": 193,
+      "height": 179,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/小炒香干",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "小米南瓜粥.png",
+      "sourcePath": "images/小米南瓜粥.png",
+      "url": "/images/%E5%B0%8F%E7%B1%B3%E5%8D%97%E7%93%9C%E7%B2%A5.png",
+      "extension": "png",
+      "bytes": 50605,
+      "width": 185,
+      "height": 165,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/小米南瓜粥",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "心形鸡排.png",
+      "sourcePath": "images/心形鸡排.png",
+      "url": "/images/%E5%BF%83%E5%BD%A2%E9%B8%A1%E6%8E%92.png",
+      "extension": "png",
+      "bytes": 70021,
+      "width": 208,
+      "height": 190,
+      "referencedBy": [
+        {
+          "recipeId": "炸品/心形鸡排",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "雪菜肉丝面.png",
+      "sourcePath": "images/雪菜肉丝面.png",
+      "url": "/images/%E9%9B%AA%E8%8F%9C%E8%82%89%E4%B8%9D%E9%9D%A2.png",
+      "extension": "png",
+      "bytes": 48221,
+      "width": 206,
+      "height": 135,
+      "referencedBy": [
+        {
+          "recipeId": "主食/雪菜肉丝面",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "油渣大白菜.jpg",
+      "sourcePath": "images/油渣大白菜.jpg",
+      "url": "/images/%E6%B2%B9%E6%B8%A3%E5%A4%A7%E7%99%BD%E8%8F%9C.jpg",
+      "extension": "jpg",
+      "bytes": 4115,
+      "width": 165,
+      "height": 128,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/油渣大白菜",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "鱼香肉丝.png",
+      "sourcePath": "images/鱼香肉丝.png",
+      "url": "/images/%E9%B1%BC%E9%A6%99%E8%82%89%E4%B8%9D.png",
+      "extension": "png",
+      "bytes": 44772,
+      "width": 186,
+      "height": 150,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/鱼香肉丝",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "鱼香肉丝盖饭.png",
+      "sourcePath": "images/鱼香肉丝盖饭.png",
+      "url": "/images/%E9%B1%BC%E9%A6%99%E8%82%89%E4%B8%9D%E7%9B%96%E9%A5%AD.png",
+      "extension": "png",
+      "bytes": 81950,
+      "width": 251,
+      "height": 185,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/鱼香肉丝盖饭",
+          "matchType": "markdown-reference"
+        },
+        {
+          "recipeId": "主食/鱼香肉丝盖饭（包菜版）",
+          "matchType": "containment"
+        },
+        {
+          "recipeId": "主食/鱼香肉丝盖饭（菜苔版）",
+          "matchType": "containment"
+        }
+      ],
+      "referenceCount": 3
+    },
+    {
+      "fileName": "芋儿鸡.jpg",
+      "sourcePath": "images/芋儿鸡.jpg",
+      "url": "/images/%E8%8A%8B%E5%84%BF%E9%B8%A1.jpg",
+      "extension": "jpg",
+      "bytes": 8573,
+      "width": 178,
+      "height": 173,
+      "referencedBy": [
+        {
+          "recipeId": "炒菜/芋儿鸡",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "原味豆浆（冲调版）.png",
+      "sourcePath": "images/原味豆浆（冲调版）.png",
+      "url": "/images/%E5%8E%9F%E5%91%B3%E8%B1%86%E6%B5%86%EF%BC%88%E5%86%B2%E8%B0%83%E7%89%88%EF%BC%89.png",
+      "extension": "png",
+      "bytes": 15948,
+      "width": 190,
+      "height": 169,
+      "referencedBy": [
+        {
+          "recipeId": "饮品/原味豆浆（冲调版本）",
+          "matchType": "version"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "原味豆浆（现磨版）.png",
+      "sourcePath": "images/原味豆浆（现磨版）.png",
+      "url": "/images/%E5%8E%9F%E5%91%B3%E8%B1%86%E6%B5%86%EF%BC%88%E7%8E%B0%E7%A3%A8%E7%89%88%EF%BC%89.png",
+      "extension": "png",
+      "bytes": 14629,
+      "width": 174,
+      "height": 154,
+      "referencedBy": [
+        {
+          "recipeId": "饮品/原味豆浆",
+          "matchType": "markdown-reference"
+        },
+        {
+          "recipeId": "饮品/原味豆浆（现磨版本）",
+          "matchType": "version"
+        }
+      ],
+      "referenceCount": 2
+    },
+    {
+      "fileName": "杂粮饭.png",
+      "sourcePath": "images/杂粮饭.png",
+      "url": "/images/%E6%9D%82%E7%B2%AE%E9%A5%AD.png",
+      "extension": "png",
+      "bytes": 54879,
+      "width": 228,
+      "height": 167,
+      "referencedBy": [
+        {
+          "recipeId": "主食/杂粮饭",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "炸鸡排.png",
+      "sourcePath": "images/炸鸡排.png",
+      "url": "/images/%E7%82%B8%E9%B8%A1%E6%8E%92.png",
+      "extension": "png",
+      "bytes": 35594,
+      "width": 216,
+      "height": 121,
+      "referencedBy": [
+        {
+          "recipeId": "炸品/炸鸡排",
+          "matchType": "markdown-reference"
+        },
+        {
+          "recipeId": "炸品/炸鸡排（调理鸡排）",
+          "matchType": "containment"
+        },
+        {
+          "recipeId": "炸品/炸鸡排（普通鸡排）",
+          "matchType": "containment"
+        }
+      ],
+      "referenceCount": 3
+    },
+    {
+      "fileName": "炸鸡腿.png",
+      "sourcePath": "images/炸鸡腿.png",
+      "url": "/images/%E7%82%B8%E9%B8%A1%E8%85%BF.png",
+      "extension": "png",
+      "bytes": 37539,
+      "width": 201,
+      "height": 130,
+      "referencedBy": [
+        {
+          "recipeId": "炸品/炸鸡腿",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "炸鸡腿时蔬面.png",
+      "sourcePath": "images/炸鸡腿时蔬面.png",
+      "url": "/images/%E7%82%B8%E9%B8%A1%E8%85%BF%E6%97%B6%E8%94%AC%E9%9D%A2.png",
+      "extension": "png",
+      "bytes": 61843,
+      "width": 205,
+      "height": 163,
+      "referencedBy": [
+        {
+          "recipeId": "主食/炸鸡腿时蔬面",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "竹荪鹿茸菇鸡汤.png",
+      "sourcePath": "images/竹荪鹿茸菇鸡汤.png",
+      "url": "/images/%E7%AB%B9%E8%8D%AA%E9%B9%BF%E8%8C%B8%E8%8F%87%E9%B8%A1%E6%B1%A4.png",
+      "extension": "png",
+      "bytes": 38161,
+      "width": 170,
+      "height": 166,
+      "referencedBy": [
+        {
+          "recipeId": "汤/竹荪鹿茸菇鸡汤",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "竹笋蒸鸡翅.jpg",
+      "sourcePath": "images/竹笋蒸鸡翅.jpg",
+      "url": "/images/%E7%AB%B9%E7%AC%8B%E8%92%B8%E9%B8%A1%E7%BF%85.jpg",
+      "extension": "jpg",
+      "bytes": 4314,
+      "width": 198,
+      "height": 154,
+      "referencedBy": [
+        {
+          "recipeId": "蒸菜/竹笋蒸鸡翅",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    },
+    {
+      "fileName": "粢饭糕.png",
+      "sourcePath": "images/粢饭糕.png",
+      "url": "/images/%E7%B2%A2%E9%A5%AD%E7%B3%95.png",
+      "extension": "png",
+      "bytes": 34977,
+      "width": 271,
+      "height": 150,
+      "referencedBy": [
+        {
+          "recipeId": "早餐/粢饭糕",
+          "matchType": "markdown-reference"
+        }
+      ],
+      "referenceCount": 1
+    }
+  ]
+}

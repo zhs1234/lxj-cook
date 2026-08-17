@@ -1,0 +1,123 @@
+@layer global {
+  :where(body) {
+    background: var(--color-paper);
+  }
+
+  :where(a) {
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.18em;
+  }
+
+  :where(a, button, input, select, textarea, summary):focus-visible {
+    outline: 0.125rem solid var(--focus-color);
+    outline-offset: var(--focus-offset);
+    box-shadow: var(--shadow-focus);
+  }
+
+  .button,
+  .icon-button {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    min-height: 2.75rem;
+    border: 0.0625rem solid var(--color-ink);
+    border-radius: var(--radius-none);
+    cursor: pointer;
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  .button {
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-5);
+  }
+
+  .button--primary {
+    background: var(--color-ink);
+    color: var(--color-inverse);
+  }
+
+  .button--quiet {
+    background: transparent;
+    color: var(--color-ink);
+  }
+
+  .button:hover,
+  .button:focus-visible {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: var(--color-inverse);
+  }
+
+  .icon-button {
+    width: 2.75rem;
+    background: transparent;
+    color: var(--color-ink);
+  }
+
+  .icon-button:hover,
+  .icon-button:focus-visible {
+    background: var(--color-ink);
+    color: var(--color-inverse);
+  }
+
+  .link-inline {
+    color: var(--color-accent-strong);
+    font-weight: 600;
+  }
+
+  .flow > * + * {
+    margin-top: var(--flow-space, var(--space-4));
+  }
+
+  .surface {
+    background: var(--color-surface);
+    color: var(--color-ink);
+  }
+
+  .media-frame {
+    overflow: hidden;
+    background: var(--color-surface-raised);
+    border: 0.0625rem solid var(--color-line);
+  }
+
+  .media-frame--placeholder {
+    align-items: center;
+    aspect-ratio: 4 / 3;
+    display: grid;
+    place-items: center;
+    color: var(--color-ink-muted);
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: var(--tracking-wide);
+    text-transform: uppercase;
+  }
+
+  .skip-link {
+    position: fixed;
+    z-index: var(--z-overlay);
+    top: var(--space-3);
+    left: var(--space-3);
+    padding: var(--space-3) var(--space-4);
+    transform: translateY(-200%);
+    background: var(--color-ink);
+    color: var(--color-inverse);
+  }
+
+  .skip-link:focus {
+    transform: translateY(0);
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 0.0625rem;
+    height: 0.0625rem;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+}

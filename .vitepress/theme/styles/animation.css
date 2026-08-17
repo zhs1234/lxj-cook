@@ -1,0 +1,57 @@
+@layer animation {
+  @keyframes foundation-fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(var(--motion-distance-md));
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes foundation-breathe {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.015);
+    }
+  }
+
+  .motion-fade-up,
+  [data-motion="fade-up"] {
+    animation: foundation-fade-up var(--motion-duration-scene) var(--motion-ease-emphasis) both;
+  }
+
+  .motion-breathe,
+  [data-motion="breathe"] {
+    animation: foundation-breathe 4s var(--motion-ease-standard) infinite;
+  }
+
+  .motion-interactive {
+    transition:
+      color var(--motion-duration-fast) var(--motion-ease-standard),
+      background-color var(--motion-duration-fast) var(--motion-ease-standard),
+      border-color var(--motion-duration-fast) var(--motion-ease-standard),
+      transform var(--motion-duration-fast) var(--motion-ease-spring);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+      scroll-behavior: auto;
+    }
+
+    .motion-fade-up,
+    .motion-breathe,
+    [data-motion="fade-up"],
+    [data-motion="breathe"],
+    .motion-interactive {
+      animation: none;
+      transition: none;
+    }
+  }
+}

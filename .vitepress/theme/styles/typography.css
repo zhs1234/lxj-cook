@@ -1,0 +1,71 @@
+@layer typography {
+  :where(body) {
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: var(--text-md);
+    line-height: var(--leading-body);
+  }
+
+  :where(h1, h2, h3, h4) {
+    color: var(--color-ink);
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: var(--tracking-tight);
+    line-height: var(--leading-tight);
+  }
+
+  :where(h1) {
+    font-size: var(--text-2xl);
+  }
+
+  :where(h2) {
+    font-size: var(--text-xl);
+  }
+
+  :where(h3) {
+    font-size: var(--text-lg);
+  }
+
+  :where(p, li) {
+    max-width: var(--container-reading);
+  }
+
+  .type-display {
+    font-family: var(--font-display);
+    font-size: var(--text-2xl);
+    font-weight: 500;
+    letter-spacing: var(--tracking-tight);
+    line-height: var(--leading-tight);
+  }
+
+  .type-section {
+    font-family: var(--font-display);
+    font-size: var(--text-xl);
+    font-weight: 500;
+    letter-spacing: var(--tracking-tight);
+    line-height: var(--leading-tight);
+  }
+
+  .type-body {
+    font-family: var(--font-sans);
+    font-size: var(--text-md);
+    line-height: var(--leading-body);
+  }
+
+  .type-meta {
+    color: var(--color-ink-muted);
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: var(--tracking-wide);
+    line-height: var(--leading-snug);
+    text-transform: uppercase;
+  }
+
+  .type-measure {
+    max-width: var(--container-reading);
+  }
+
+  .type-balance {
+    text-wrap: balance;
+  }
+}
